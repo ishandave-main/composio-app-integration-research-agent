@@ -1,0 +1,156 @@
+[
+  {
+    "app": "Stripe",
+    "category": "Finance and Fintech",
+    "field_checked": "mcp_status",
+    "agent_answer": "OFFICIAL",
+    "human_verified_answer": "OFFICIAL",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://docs.stripe.com/mcp",
+    "notes": "Directly fetched Stripe's own MCP docs page (docs.stripe.com). Confirms first-party server at mcp.stripe.com, OAuth2 + restricted-API-key auth, full tool catalog. Clean confirmation."
+  },
+  {
+    "app": "Xero",
+    "category": "Finance and Fintech",
+    "field_checked": "mcp_status",
+    "agent_answer": "OFFICIAL",
+    "human_verified_answer": "OFFICIAL",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://github.com/XeroAPI/xero-mcp-server",
+    "notes": "Fetched the repo README directly. XeroAPI is Xero's own GitHub org (also hosts xero-node, the official SDK); README links exclusively to Xero's own developer docs. Original evidence had verified=false (domain-based only) -- now confirmed by content read."
+  },
+  {
+    "app": "Ramp",
+    "category": "Finance and Fintech",
+    "field_checked": "mcp_status",
+    "agent_answer": "OFFICIAL",
+    "human_verified_answer": "OFFICIAL",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://github.com/ramp-public/ramp_mcp",
+    "notes": "Fetched repo directly. LICENSE file explicitly states 'Copyright (c) 2025, Ramp Business Corporation' -- unambiguous first-party confirmation. Original evidence had verified=false; now verified=true."
+  },
+  {
+    "app": "Slack",
+    "category": "Communications and Messaging",
+    "field_checked": "mcp_status",
+    "agent_answer": "UNCLEAR",
+    "human_verified_answer": "UNCLEAR (leans OFFICIAL, not first-party-confirmed)",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://api.slack.com/mcp (401, page exists but login-gated); https://www.usecarly.com/blog/slack-mcp/",
+    "notes": "This was originally a V1 methodology catch (a third-party blog's 'official' claim couldn't be confirmed on api.slack.com). Deeper verification found the target page now returns 401 (exists, gated) rather than 404, plus a detailed third-party writeup claiming GA since Feb 2026 with named launch partners -- stronger circumstantial evidence than the V1-era check. Still no first-party Slack help-center or blog page was found confirming it directly, so UNCLEAR remains the honest call, but a human with Slack API console access could likely resolve this in under a minute. Flagged as the pipeline's caution correctly avoiding a false positive, at the cost of a probable false negative."
+  },
+  {
+    "app": "Help Scout",
+    "category": "Support and Helpdesk",
+    "field_checked": "mcp_status",
+    "agent_answer": "UNCLEAR",
+    "human_verified_answer": "UNCLEAR (confirmed: no MCP on official docs)",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://developer.helpscout.com",
+    "notes": "Fetched the official developer page directly and searched its content. Apps, Beacon, Inbox/Chat/Docs APIs, and Webhooks are documented; no MCP server is mentioned anywhere. Confirms the original catch that a third-party blog's 'official Help Scout MCP' claim does not hold up against the vendor's own docs."
+  },
+  {
+    "app": "LinkedIn Ads",
+    "category": "Marketing Ads Email and Social",
+    "field_checked": "access_model",
+    "agent_answer": "PARTNER_GATED",
+    "human_verified_answer": "PARTNER_GATED",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://developer.linkedin.com/",
+    "notes": "Confirms a 'LinkedIn Marketing API Program' requiring application/approval, consistent with the recorded PARTNER_GATED classification."
+  },
+  {
+    "app": "GitHub",
+    "category": "Developer Infra and Data Platforms",
+    "field_checked": "auth_methods",
+    "agent_answer": "[\"OAUTH2\", \"TOKEN\"]",
+    "human_verified_answer": "[\"OAUTH2\", \"TOKEN\"]",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "notes": "Confirms personal access tokens and OAuth/GitHub Apps; explicitly states username/password auth is not supported."
+  },
+  {
+    "app": "GitHub",
+    "category": "Developer Infra and Data Platforms",
+    "field_checked": "mcp_status",
+    "agent_answer": "OFFICIAL",
+    "human_verified_answer": "OFFICIAL",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://github.com/github/github-mcp-server",
+    "notes": "Hosted directly under the github org -- unambiguous."
+  },
+  {
+    "app": "Twilio",
+    "category": "Communications and Messaging",
+    "field_checked": "auth_methods",
+    "agent_answer": "[\"API_KEY\", \"TOKEN\"]",
+    "human_verified_answer": "[\"API_KEY\", \"TOKEN\"]",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://www.twilio.com/docs/iam/api",
+    "notes": "Confirms HTTP Basic auth using API key SID as username, API key secret as password; keys self-generated in Console or via API."
+  },
+  {
+    "app": "Sherlock",
+    "category": "Data SEO and Scraping",
+    "field_checked": "buildability",
+    "agent_answer": "NEEDS_REVIEW",
+    "human_verified_answer": "NEEDS_REVIEW",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://github.com/sherlock-project/sherlock",
+    "notes": "Confirmed: MIT-licensed local CLI, no vendor account or API surface. Judgment call (non-standard integration model needing human review before building a CLI-wrapper toolkit) holds up -- this is exactly the case the V2 NON_STANDARD_INTEGRATION_MODEL heuristic was built to catch."
+  },
+  {
+    "app": "Salesforce",
+    "category": "CRM and Sales",
+    "field_checked": "access_model + mcp_status",
+    "agent_answer": "SELF_SERVE_FREE (dev org) / OFFICIAL",
+    "human_verified_answer": "SELF_SERVE_FREE (dev org) / OFFICIAL",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart_dev_org.html; https://developer.salesforce.com/blogs/2026/04/salesforce-hosted-mcp-servers-are-now-generally-available",
+    "notes": "This record was hand-researched at V1 depth (multiple fetches) and carried into V2; re-confirmed, no change."
+  },
+  {
+    "app": "Attio",
+    "category": "CRM and Sales",
+    "field_checked": "mcp_status",
+    "agent_answer": "OFFICIAL",
+    "human_verified_answer": "OFFICIAL",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://docs.attio.com/mcp/overview",
+    "notes": "Already verified=true at research time (fetched directly); re-confirmed as self-consistent during this pass."
+  },
+  {
+    "app": "Google Ads",
+    "category": "Marketing Ads Email and Social",
+    "field_checked": "mcp_status",
+    "agent_answer": "NONE_FOUND",
+    "human_verified_answer": "OFFICIAL",
+    "correct": false,
+    "correction": "Google shipped an official, open-source, read-only Google Ads MCP server on 2026-04-28, maintained by the Google Ads API team, hosted at github.com/googleads/google-ads-mcp. The original V2 research pass for this app ran a combined auth/access/API search but did not run a separate MCP-specific query (a step in the documented V2 procedure that was skipped for this app) -- so the launch was missed. Corrected in research/v2_raw/google-ads.json with a correction_note field, and the pipeline was re-run.",
+    "evidence": "https://github.com/googleads/google-ads-mcp; https://www.growthspreeofficial.com/blogs/google-ads-official-mcp",
+    "notes": "REAL ERROR CAUGHT. This is the one confirmed misclassification in the verification sample. It is a missed-positive (NONE_FOUND when OFFICIAL was findable), not a fabricated claim -- consistent with the pipeline's bias toward under-claiming rather than over-claiming, but still a genuine gap in this record's execution of the V2 procedure."
+  },
+  {
+    "app": "Copper",
+    "category": "CRM and Sales",
+    "field_checked": "access_model",
+    "agent_answer": "UNCLEAR",
+    "human_verified_answer": "UNCLEAR (confirmed still unresolvable from public docs)",
+    "correct": true,
+    "correction": "",
+    "evidence": "https://developer.copper.com/",
+    "notes": "Re-fetched the developer homepage looking specifically for plan-tier restrictions on API access; none stated. The UNCLEAR call is the honest one -- Copper's docs simply don't say, and guessing would violate the reliability rules."
+  }
+]
