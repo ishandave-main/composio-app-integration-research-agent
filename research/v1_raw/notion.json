@@ -1,0 +1,38 @@
+{
+  "app": "Notion",
+  "category": "Productivity and Project Management",
+  "description": "Notion is a workspace app for notes, docs, wikis, and databases, with an API for reading and writing pages, databases, and blocks.",
+  "auth_methods": ["API_KEY", "OAUTH2", "TOKEN"],
+  "auth_evidence": {
+    "urls": ["https://developers.notion.com/docs/create-a-notion-integration"],
+    "source_type": "OFFICIAL"
+  },
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Internal integrations and personal access tokens are created self-serve and free in the developer portal, working immediately. Caveat: on Business and Enterprise plans, PAT/integration creation is disabled by default and a workspace owner must enable it in Settings -> Connections first, which makes access effectively ADMIN_GATED for those specific workspaces.",
+  "access_evidence": {
+    "urls": ["https://developers.notion.com/docs/create-a-notion-integration"],
+    "source_type": "OFFICIAL"
+  },
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Covers pages, databases, blocks, users, comments, and search -- the full content model of the product, but a narrower object surface than a platform like Salesforce or Stripe. Classified MODERATE rather than BROAD on that comparative basis.",
+  "api_evidence": {
+    "urls": ["https://developers.notion.com/docs/create-a-notion-integration"],
+    "source_type": "OFFICIAL"
+  },
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {
+    "urls": ["https://developers.notion.com/guides/mcp/overview"],
+    "source_type": "OFFICIAL"
+  },
+  "buildability": "READY",
+  "main_blocker": "",
+  "confidence": "MEDIUM",
+  "review_flags": [],
+  "sources": [
+    "https://developers.notion.com/docs/create-a-notion-integration",
+    "https://developers.notion.com/guides/mcp/overview",
+    "https://developers.notion.com"
+  ],
+  "input_website_hint": "https://developers.notion.com"
+}
