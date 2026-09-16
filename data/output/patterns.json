@@ -1,0 +1,219 @@
+{
+  "total_apps": 100,
+  "auth_method_distribution": {
+    "API_KEY": 47,
+    "OAUTH2": 66,
+    "TOKEN": 31,
+    "BASIC": 2,
+    "UNCLEAR": 4,
+    "NONE_FOUND": 3,
+    "OTHER": 1
+  },
+  "access_model_distribution": {
+    "PAID": 5,
+    "SELF_SERVE_FREE": 70,
+    "ADMIN_GATED": 3,
+    "SELF_SERVE_TRIAL": 9,
+    "UNCLEAR": 9,
+    "CONTACT_SALES": 3,
+    "PARTNER_GATED": 1
+  },
+  "buildability_distribution": {
+    "NEEDS_REVIEW": 17,
+    "READY": 66,
+    "FEASIBLE_WITH_SETUP": 12,
+    "GATED": 5
+  },
+  "mcp_status_distribution": {
+    "UNCLEAR": 6,
+    "COMMUNITY": 24,
+    "OFFICIAL": 56,
+    "NONE_FOUND": 14
+  },
+  "confidence_distribution": {
+    "LOW": 71,
+    "MEDIUM": 23,
+    "HIGH": 6
+  },
+  "api_type_distribution": {
+    "REST": 92,
+    "GRAPHQL": 9,
+    "OTHER": 4,
+    "UNCLEAR": 2,
+    "RPC": 1,
+    "CLI": 4,
+    "NONE_FOUND": 1
+  },
+  "api_breadth_distribution": {
+    "MODERATE": 41,
+    "BROAD": 44,
+    "NARROW": 11,
+    "UNCLEAR": 4
+  },
+  "review_flag_distribution": {
+    "API_UNCLEAR": 8,
+    "CONDITIONAL_ACCESS": 22,
+    "CONFLICTING_SOURCES": 4,
+    "LOW_CONFIDENCE": 71,
+    "SOURCE_NOT_VERIFIED": 83,
+    "MCP_UNVERIFIED": 48,
+    "ACCESS_UNCLEAR": 13,
+    "AUTH_UNCLEAR": 4,
+    "NO_OFFICIAL_SOURCE": 4,
+    "BUILDABILITY_CONTRADICTION": 2,
+    "NON_STANDARD_INTEGRATION_MODEL": 3
+  },
+  "human_review_n": 90,
+  "human_review_pct": 90.0,
+  "self_serve_n": 79,
+  "self_serve_pct": 79.0,
+  "gated_n": 12,
+  "gated_pct": 12.0,
+  "unclear_access_n": 9,
+  "unclear_access_pct": 9.0,
+  "oauth2_n": 66,
+  "oauth2_pct": 66.0,
+  "api_key_or_token_n": 74,
+  "api_key_or_token_pct": 74.0,
+  "mcp_official_n": 56,
+  "mcp_official_pct": 56.0,
+  "mcp_any_n": 80,
+  "mcp_any_pct": 80.0,
+  "category_stats": {
+    "Data SEO and Scraping": {
+      "n": 10,
+      "ready_pct": 20.0,
+      "ready_n": 2,
+      "gated_or_blocked_n": 0,
+      "gated_or_blocked_pct": 0.0,
+      "needs_review_n": 6,
+      "self_serve_pct": 40.0,
+      "mcp_official_pct": 50.0,
+      "human_review_pct": 100.0
+    },
+    "Communications and Messaging": {
+      "n": 10,
+      "ready_pct": 80.0,
+      "ready_n": 8,
+      "gated_or_blocked_n": 0,
+      "gated_or_blocked_pct": 0.0,
+      "needs_review_n": 2,
+      "self_serve_pct": 90.0,
+      "mcp_official_pct": 50.0,
+      "human_review_pct": 100.0
+    },
+    "Productivity and Project Management": {
+      "n": 10,
+      "ready_pct": 100.0,
+      "ready_n": 10,
+      "gated_or_blocked_n": 0,
+      "gated_or_blocked_pct": 0.0,
+      "needs_review_n": 0,
+      "self_serve_pct": 100.0,
+      "mcp_official_pct": 80.0,
+      "human_review_pct": 90.0
+    },
+    "Ecommerce": {
+      "n": 10,
+      "ready_pct": 60.0,
+      "ready_n": 6,
+      "gated_or_blocked_n": 1,
+      "gated_or_blocked_pct": 10.0,
+      "needs_review_n": 1,
+      "self_serve_pct": 70.0,
+      "mcp_official_pct": 10.0,
+      "human_review_pct": 100.0
+    },
+    "CRM and Sales": {
+      "n": 10,
+      "ready_pct": 80.0,
+      "ready_n": 8,
+      "gated_or_blocked_n": 1,
+      "gated_or_blocked_pct": 10.0,
+      "needs_review_n": 1,
+      "self_serve_pct": 80.0,
+      "mcp_official_pct": 60.0,
+      "human_review_pct": 60.0
+    },
+    "Finance and Fintech": {
+      "n": 10,
+      "ready_pct": 40.0,
+      "ready_n": 4,
+      "gated_or_blocked_n": 1,
+      "gated_or_blocked_pct": 10.0,
+      "needs_review_n": 2,
+      "self_serve_pct": 60.0,
+      "mcp_official_pct": 70.0,
+      "human_review_pct": 70.0
+    },
+    "Developer Infra and Data Platforms": {
+      "n": 10,
+      "ready_pct": 90.0,
+      "ready_n": 9,
+      "gated_or_blocked_n": 0,
+      "gated_or_blocked_pct": 0.0,
+      "needs_review_n": 0,
+      "self_serve_pct": 100.0,
+      "mcp_official_pct": 100.0,
+      "human_review_pct": 100.0
+    },
+    "AI Research and Media-native": {
+      "n": 10,
+      "ready_pct": 60.0,
+      "ready_n": 6,
+      "gated_or_blocked_n": 1,
+      "gated_or_blocked_pct": 10.0,
+      "needs_review_n": 2,
+      "self_serve_pct": 70.0,
+      "mcp_official_pct": 70.0,
+      "human_review_pct": 90.0
+    },
+    "Support and Helpdesk": {
+      "n": 10,
+      "ready_pct": 70.0,
+      "ready_n": 7,
+      "gated_or_blocked_n": 0,
+      "gated_or_blocked_pct": 0.0,
+      "needs_review_n": 2,
+      "self_serve_pct": 90.0,
+      "mcp_official_pct": 40.0,
+      "human_review_pct": 100.0
+    },
+    "Marketing Ads Email and Social": {
+      "n": 10,
+      "ready_pct": 60.0,
+      "ready_n": 6,
+      "gated_or_blocked_n": 1,
+      "gated_or_blocked_pct": 10.0,
+      "needs_review_n": 1,
+      "self_serve_pct": 90.0,
+      "mcp_official_pct": 30.0,
+      "human_review_pct": 90.0
+    }
+  },
+  "easiest_categories": [
+    "Productivity and Project Management",
+    "Developer Infra and Data Platforms",
+    "Communications and Messaging"
+  ],
+  "hardest_categories": [
+    "Data SEO and Scraping",
+    "Finance and Fintech",
+    "Ecommerce"
+  ],
+  "blocker_keyword_distribution": {
+    "paid_plan_required": 11,
+    "approval": 8,
+    "admin_required": 2,
+    "other": 5,
+    "no_official_source": 9,
+    "sales_contact": 4,
+    "non_standard_model": 3
+  },
+  "oauth2_ready_n": 52,
+  "oauth2_ready_pct": 78.8,
+  "self_serve_ready_n": 66,
+  "self_serve_ready_pct": 83.5,
+  "gated_ready_n": 0,
+  "gated_ready_pct": 0.0
+}
