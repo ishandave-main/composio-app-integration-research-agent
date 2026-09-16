@@ -1,0 +1,23 @@
+{
+  "app": "Sentry",
+  "category": "Developer Infra and Data Platforms",
+  "description": "Sentry is an application error-tracking/observability platform with a REST API for issues, events, and projects.",
+  "auth_methods": ["TOKEN", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://docs.sentry.io/api/auth/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Auth tokens are self-generated from account settings; Sentry has a free developer tier.",
+  "access_evidence": {"urls": ["https://docs.sentry.io/api/auth/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Issues, events, projects, releases, and performance/tracing data.",
+  "api_evidence": {"urls": ["https://docs.sentry.io/api/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://docs.sentry.io/ai/mcp/"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.sentry.io/api/auth/", "https://docs.sentry.io/ai/mcp/"],
+  "input_website_hint": "https://docs.sentry.io/api"
+}

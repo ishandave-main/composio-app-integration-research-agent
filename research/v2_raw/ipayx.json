@@ -1,0 +1,23 @@
+{
+  "app": "iPayX",
+  "category": "Finance and Fintech",
+  "description": "iPayX (ipayx.ai) is an FX verification/audit product that compares bank-applied foreign-exchange rates against real-time mid-market rates.",
+  "auth_methods": ["UNCLEAR"],
+  "auth_evidence": {"urls": ["https://ipayx.ai/docs"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "UNCLEAR",
+  "access_notes": "The ipayx.ai site describes a consumer-facing FX audit tool ('enter your transaction') rather than a self-serve developer API signup flow. A separate community MCP connector ('iPayX FX Audit') exists on Glama/mcpservers.org, but the primary site does not document programmatic API access, auth, or signup for developers.",
+  "access_evidence": {"urls": ["https://ipayx.ai/docs"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["UNCLEAR"],
+  "api_breadth": "UNCLEAR",
+  "api_notes": "No developer API reference, endpoint list, or SDK documentation found on the official site; only a consumer-facing web interface was visible.",
+  "api_evidence": {"urls": ["https://ipayx.ai/docs"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://glama.ai/mcp/connectors/io.github.Ipayx-stellar/fx-audit", "https://mcpservers.org/servers/ipayx-technologies/mcp-fx-audit"], "source_type": "THIRD_PARTY", "verified": false},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "No public developer API documentation was found; the product appears to be a consumer-facing tool with a separate, unofficial MCP connector.",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["NO_OFFICIAL_SOURCE", "AUTH_UNCLEAR", "ACCESS_UNCLEAR", "API_UNCLEAR"],
+  "sources": ["https://ipayx.ai/docs"],
+  "input_website_hint": "https://ipayx.ai/docs"
+}

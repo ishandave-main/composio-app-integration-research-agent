@@ -1,0 +1,23 @@
+{
+  "app": "Linear",
+  "category": "Productivity and Project Management",
+  "description": "Linear is a software issue-tracking/project-management tool with a GraphQL API for issues, projects, and teams.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://linear.app/developers/graphql"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Personal API keys are self-generated from account settings for any Linear workspace.",
+  "access_evidence": {"urls": ["https://linear.app/developers"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["GRAPHQL"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Issues, projects, teams, cycles, and comments via a single GraphQL endpoint.",
+  "api_evidence": {"urls": ["https://developers.linear.app/docs/graphql/working-with-the-graphql-api"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://linear.app/docs/mcp", "https://linear.app/changelog/2025-05-01-mcp"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://linear.app/developers/graphql", "https://linear.app/docs/mcp"],
+  "input_website_hint": "https://developers.linear.app"
+}

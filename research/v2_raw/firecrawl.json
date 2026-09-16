@@ -1,0 +1,23 @@
+{
+  "app": "Firecrawl",
+  "category": "Data SEO and Scraping",
+  "description": "Firecrawl is a web-scraping/crawling API built for feeding LLMs and agents clean page content, with search and crawl endpoints.",
+  "auth_methods": ["API_KEY", "NONE_FOUND"],
+  "auth_evidence": {"urls": ["https://docs.firecrawl.dev/introduction", "https://www.firecrawl.dev/blog/firecrawl-keyless-launch"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Free tier with an API key is standard; a 'Keyless' mode was also launched for limited search/scrape without an API key at all, per Firecrawl's own announcement.",
+  "access_evidence": {"urls": ["https://www.firecrawl.dev/blog/firecrawl-keyless-launch", "https://www.firecrawl.dev/pricing"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Scrape, crawl, map, and search endpoints returning LLM-ready markdown/structured content.",
+  "api_evidence": {"urls": ["https://docs.firecrawl.dev/introduction"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://www.firecrawl.dev/use-cases/ai-mcps", "https://github.com/firecrawl"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.firecrawl.dev/introduction", "https://www.firecrawl.dev/use-cases/ai-mcps"],
+  "input_website_hint": "https://firecrawl.dev"
+}

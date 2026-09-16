@@ -1,0 +1,23 @@
+{
+  "app": "Front",
+  "category": "Support and Helpdesk",
+  "description": "Front is a shared-inbox customer communication platform with a REST API for conversations, messages, and contacts.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://dev.frontapp.com/docs/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API tokens self-generated from account settings; official docs describe direct token creation with no approval step.",
+  "access_evidence": {"urls": ["https://dev.frontapp.com/docs/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Conversations, messages, contacts, inboxes, and tags.",
+  "api_evidence": {"urls": ["https://dev.frontapp.com/reference/introduction"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://dev.frontapp.com/docs/mcp-server", "https://help.front.com/en/articles/4883136"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://dev.frontapp.com/docs/authentication", "https://dev.frontapp.com/docs/mcp-server"],
+  "input_website_hint": "https://front.com"
+}

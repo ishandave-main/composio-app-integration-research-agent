@@ -1,0 +1,23 @@
+{
+  "app": "Reducto",
+  "category": "AI Research and Media-native",
+  "description": "Reducto is an agentic document-understanding API for parsing, extracting, splitting, and editing PDFs and documents.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://docs.reducto.ai/quickstart"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Developers sign up for a free account at studio.reducto.ai and generate an API key immediately from the dashboard, with no manual approval step.",
+  "access_evidence": {"urls": ["https://docs.reducto.ai/quickstart"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Parse, extract (schema-based field extraction), split, edit, classify, and async parse with webhooks; SDKs available in Python, Node.js, and Go.",
+  "api_evidence": {"urls": ["https://docs.reducto.ai/quickstart"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://docs.reducto.ai/mcp-server", "https://github.com/reductoai/mcp-server-reducto"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.reducto.ai/quickstart", "https://docs.reducto.ai/mcp-server"],
+  "input_website_hint": "https://reducto.ai"
+}

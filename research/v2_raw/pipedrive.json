@@ -1,0 +1,23 @@
+{
+  "app": "Pipedrive",
+  "category": "CRM and Sales",
+  "description": "Pipedrive is a sales-pipeline CRM with a REST API for deals, contacts, activities, and pipeline data.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://pipedrive.readme.io/docs/core-api-concepts-authentication"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "A personal API token is available directly from account settings for any Pipedrive user/trial account -- no separate approval. OAuth apps go through Pipedrive's developer program for multi-customer distribution, still self-serve.",
+  "access_evidence": {"urls": ["https://pipedrive.readme.io/docs/core-api-concepts-authentication"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Full CRM object model: deals, persons, organizations, activities, pipelines, products.",
+  "api_evidence": {"urls": ["https://developers.pipedrive.com/docs/api/v1"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://www.pipedrive.com/en/features/mcp-server"], "source_type": "OFFICIAL", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "HIGH",
+  "review_flags": [],
+  "sources": ["https://pipedrive.readme.io/docs/core-api-concepts-authentication", "https://www.pipedrive.com/en/features/mcp-server", "https://developers.pipedrive.com/docs/api/v1"],
+  "input_website_hint": "https://pipedrive.com"
+}

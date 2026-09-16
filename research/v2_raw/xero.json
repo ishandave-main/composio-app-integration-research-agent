@@ -1,0 +1,23 @@
+{
+  "app": "Xero",
+  "category": "Finance and Fintech",
+  "description": "Xero is a cloud accounting platform with a REST API for invoices, contacts, bank transactions, and accounting data.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://developer.xero.com/documentation/guides/oauth2/overview/", "https://developer.xero.com/faq/getting-started"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Developers self-serve sign up for a free Xero account and register an app in the developer portal to get a client id/secret; a free demo company is provided for testing at no cost. Xero's own getting-started FAQ does not describe a separate vendor approval step for basic API access.",
+  "access_evidence": {"urls": ["https://developer.xero.com/faq/getting-started"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Invoices, contacts, bank transactions, accounts, items, and payroll/practice-manager APIs.",
+  "api_evidence": {"urls": ["https://developer.xero.com/faq/getting-started"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/XeroAPI/xero-mcp-server", "https://www.pulsemcp.com/servers/xero-accounting"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developer.xero.com/faq/getting-started", "https://github.com/XeroAPI/xero-mcp-server"],
+  "input_website_hint": "https://developer.xero.com"
+}

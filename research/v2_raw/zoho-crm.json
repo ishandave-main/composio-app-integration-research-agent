@@ -1,0 +1,23 @@
+{
+  "app": "Zoho CRM",
+  "category": "CRM and Sales",
+  "description": "Zoho CRM is a sales/CRM platform in the Zoho suite with a REST API for leads, deals, contacts, and modules.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Self-client / server-based OAuth apps are created directly in the Zoho API Console by any Zoho account holder; no approval step found for standard OAuth API access.",
+  "access_evidence": {"urls": ["https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Covers standard and custom CRM modules (leads, deals, contacts, accounts) plus bulk read/write and notifications APIs.",
+  "api_evidence": {"urls": ["https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://www.zoho.com/crm/developer/docs/mcp/overview.html"], "source_type": "OFFICIAL", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": [],
+  "sources": ["https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html", "https://www.zoho.com/crm/developer/docs/mcp/overview.html"],
+  "input_website_hint": "https://zoho.com/crm"
+}

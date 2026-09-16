@@ -1,0 +1,62 @@
+{
+  "app": "WhatsApp Business",
+  "category": "Communications and Messaging",
+  "description": "WhatsApp Business Platform (Cloud API) lets businesses send and receive WhatsApp messages programmatically, built on Meta's Graph API.",
+  "auth_methods": [
+    "TOKEN",
+    "OAUTH2"
+  ],
+  "auth_evidence": {
+    "urls": [
+      "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "access_model": "SELF_SERVE_TRIAL",
+  "access_notes": "Dev/test access is free and self-serve: create a Meta developer app, get a temporary access token and a free test phone number, send test messages immediately -- no approval seen for this tier. Production requires registering and verifying a real business phone number (official doc: business-phone-numbers/phone-numbers). That same official page explicitly frames Meta Business Verification as raising your phone-number cap (2 -> 20), NOT as a hard prerequisite to go live -- which conflicts with the widespread third-party claim that verification is mandatory. Separately, Meta's general platform App Review process for moving an app from Development to Live mode likely applies here too, but the specific official page for that (developers.facebook.com/documentation/mcp/... and related App Review docs) was login-gated during this research pass and could not be directly confirmed. Net: real gating exists between test and production, but its exact shape is not fully verified from official sources in this pass.",
+  "access_evidence": {
+    "urls": [
+      "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started",
+      "https://developers.facebook.com/documentation/business-messaging/whatsapp/business-phone-numbers/phone-numbers"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "BROAD",
+  "api_notes": "Graph-API-based REST surface covering messaging (text/media/template messages), webhooks for inbound messages/status, phone number and WABA management, and Embedded Signup for onboarding customers.",
+  "api_evidence": {
+    "urls": [
+      "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {
+    "urls": [
+      "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": false
+  },
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Test-tier access is straightforward, but the exact production gating process (business verification requirements vs. general App Review) could not be fully confirmed from official sources -- the relevant Meta page required a login. Needs a human with Meta developer console access to confirm before committing to READY, FEASIBLE_WITH_SETUP, or GATED.",
+  "confidence": "MEDIUM",
+  "review_flags": [
+    "CONFLICTING_SOURCES",
+    "MCP_UNVERIFIED"
+  ],
+  "sources": [
+    "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started",
+    "https://developers.facebook.com/documentation/business-messaging/whatsapp/business-phone-numbers/phone-numbers",
+    "https://developers.facebook.com/documentation/mcp/whatsapp-business-tools-mcp",
+    "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/"
+  ],
+  "input_website_hint": "https://developers.facebook.com/docs/whatsapp",
+  "access_conditional_gate": true,
+  "pipeline_version": "v2"
+}

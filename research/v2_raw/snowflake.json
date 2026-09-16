@@ -1,0 +1,23 @@
+{
+  "app": "Snowflake",
+  "category": "Developer Infra and Data Platforms",
+  "description": "Snowflake is a cloud data warehouse with SQL and REST APIs, key-pair/OAuth authentication, and Cortex AI agent tooling.",
+  "auth_methods": ["OAUTH2", "OTHER"],
+  "auth_evidence": {"urls": ["https://docs.snowflake.com/en/user-guide/key-pair-auth", "https://docs.snowflake.com/en/user-guide/oauth-intro"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_TRIAL",
+  "access_notes": "Free trial account with credits is self-serve; ongoing usage is consumption-priced (compute/storage credits), so sustained use requires a paid account.",
+  "access_evidence": {"urls": ["https://docs.snowflake.com/en/user-guide/security-authentication-overview"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST", "OTHER"],
+  "api_breadth": "BROAD",
+  "api_notes": "SQL API, key-pair/OAuth-authenticated REST endpoints, and Cortex AI/agent-specific APIs; OTHER reflects key-pair (JWT-based) auth alongside OAuth.",
+  "api_evidence": {"urls": ["https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/Snowflake-Labs/mcp", "https://www.snowflake.com/en/blog/managed-mcp-servers-secure-data-agents/"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.snowflake.com/en/user-guide/key-pair-auth", "https://www.snowflake.com/en/blog/managed-mcp-servers-secure-data-agents/"],
+  "input_website_hint": "https://docs.snowflake.com"
+}

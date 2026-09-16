@@ -1,0 +1,23 @@
+{
+  "app": "Zendesk",
+  "category": "Support and Helpdesk",
+  "description": "Zendesk is a customer support/ticketing platform with a REST API for tickets, users, and help center content.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://developer.zendesk.com/documentation/api-basics/authentication/oauth-vs-api-tokens/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API tokens are generated directly from account admin settings; well-documented self-serve developer program with a free trial account available for building integrations.",
+  "access_evidence": {"urls": ["https://developer.zendesk.com/documentation/api-basics/authentication/oauth-vs-api-tokens/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Tickets, users, organizations, help center, chat, talk -- one of the broadest support-category APIs.",
+  "api_evidence": {"urls": ["https://developer.zendesk.com/api-reference/introduction/security-and-auth/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://www.pulsemcp.com/servers/reminia-zendesk"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developer.zendesk.com/documentation/api-basics/authentication/oauth-vs-api-tokens/", "https://developer.zendesk.com/api-reference/introduction/security-and-auth/"],
+  "input_website_hint": "https://zendesk.com"
+}

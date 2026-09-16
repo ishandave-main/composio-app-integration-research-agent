@@ -1,0 +1,23 @@
+{
+  "app": "Ahrefs",
+  "category": "Data SEO and Scraping",
+  "description": "Ahrefs is an SEO toolset (backlinks, keywords, site audit) offering an API for programmatic data access.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://docs.ahrefs.com/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "PAID",
+  "access_notes": "Official docs note the older API v2 has been deprecated in favor of a new access model (Ahrefs Connect / API for Developers). A third-party report specifically tested API availability 'on a Standard plan' (not just Enterprise), suggesting it's not strictly enterprise-only, but this was not independently confirmed against an official pricing page in this pass -- API access requires an underlying paid Ahrefs subscription either way.",
+  "access_evidence": {"urls": ["https://docs.ahrefs.com/en/ahrefs-connect/docs/how-it-works"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Backlinks, keywords, site audit, and rank-tracking data -- exact current v3-era endpoint breadth not independently verified after the v2 deprecation.",
+  "api_evidence": {"urls": ["https://docs.ahrefs.com/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "UNCLEAR",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "API recently migrated (v2 deprecated); current plan-tier requirements and full endpoint breadth not fully re-confirmed from official sources in this pass.",
+  "access_conditional_gate": true,
+  "confidence": "LOW",
+  "review_flags": ["CONFLICTING_SOURCES", "API_UNCLEAR"],
+  "sources": ["https://docs.ahrefs.com/", "https://ahrefs.com/api/subscription"],
+  "input_website_hint": "https://ahrefs.com/api"
+}

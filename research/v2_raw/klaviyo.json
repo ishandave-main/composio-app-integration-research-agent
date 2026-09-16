@@ -1,0 +1,23 @@
+{
+  "app": "Klaviyo",
+  "category": "Marketing Ads Email and Social",
+  "description": "Klaviyo is an ecommerce-focused email/SMS marketing platform with a REST API for profiles, campaigns, and events.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://developers.klaviyo.com/en/docs/authenticate_", "https://developers.klaviyo.com/en/docs/set_up_oauth"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Private API keys are self-generated from account settings, documented directly on the public developer site.",
+  "access_evidence": {"urls": ["https://developers.klaviyo.com/en/v2023-01-24/docs/retrieve_api_credentials"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Profiles, events, campaigns, flows, segments, and catalog objects.",
+  "api_evidence": {"urls": ["https://developers.klaviyo.com/en/reference/api_overview"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://developers.klaviyo.com/en/docs/klaviyo_mcp_server", "https://www.klaviyo.com/newsroom/mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developers.klaviyo.com/en/docs/authenticate_", "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server"],
+  "input_website_hint": "https://developers.klaviyo.com"
+}

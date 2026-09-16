@@ -1,0 +1,23 @@
+{
+  "app": "Neo4j",
+  "category": "Developer Infra and Data Platforms",
+  "description": "Neo4j is a graph database; Neo4j Aura (the managed cloud offering) has a REST Aura API for provisioning/managing database instances, alongside the Bolt driver protocol for queries.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://neo4j.com/docs/aura/platform/api/authentication/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Aura has a free tier instance and self-serve API credential creation for the Aura management API.",
+  "access_evidence": {"urls": ["https://neo4j.com/docs/aura/platform/api/authentication/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST", "OTHER"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Aura API for instance/project management; actual graph queries go through the Bolt protocol (driver-based, not classic REST) -- tagged OTHER alongside REST to reflect that split.",
+  "api_evidence": {"urls": ["https://neo4j.com/docs/aura/platform/api/specification/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/neo4j/mcp"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://neo4j.com/docs/aura/platform/api/authentication/", "https://github.com/neo4j/mcp"],
+  "input_website_hint": "https://neo4j.com/docs/api"
+}

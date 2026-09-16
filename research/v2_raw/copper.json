@@ -1,0 +1,23 @@
+{
+  "app": "Copper",
+  "category": "CRM and Sales",
+  "description": "Copper is a CRM built for Google Workspace users, with a REST API for leads, people, companies, and opportunities.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://developer.copper.com/introduction/authentication.html"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "UNCLEAR",
+  "access_notes": "API keys are generated from standard account System Settings, suggesting self-serve, but official docs did not explicitly confirm whether API access requires a specific paid plan tier -- left UNCLEAR rather than guessed.",
+  "access_evidence": {"urls": ["https://developer.copper.com/introduction/authentication.html"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Leads, people, companies, opportunities, tasks -- standard CRM object set.",
+  "api_evidence": {"urls": ["https://developer.copper.com/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Access model (plan-tier dependency for API access) not confirmed from official sources.",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["ACCESS_UNCLEAR"],
+  "sources": ["https://developer.copper.com/introduction/authentication.html", "https://developer.copper.com/"],
+  "input_website_hint": "https://copper.com"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "Apify",
+  "category": "Data SEO and Scraping",
+  "description": "Apify is a web-scraping/automation platform (\"Actors\" marketplace) with a REST API for running scrapers and retrieving datasets.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://docs.apify.com/api/v2/getting-started"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Free plan with usage credits is available on signup; API token is immediately visible in account settings.",
+  "access_evidence": {"urls": ["https://apify.com/pricing"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Running Actors (scrapers/crawlers), managing datasets/key-value stores, webhooks, and a large marketplace of pre-built scrapers callable via API.",
+  "api_evidence": {"urls": ["https://docs.apify.com/api/v2"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://docs.apify.com/integrations/mcp", "https://github.com/apify/apify-mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.apify.com/api/v2/getting-started", "https://docs.apify.com/integrations/mcp"],
+  "input_website_hint": "https://docs.apify.com"
+}

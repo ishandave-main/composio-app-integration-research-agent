@@ -1,0 +1,23 @@
+{
+  "app": "Twilio",
+  "category": "Communications and Messaging",
+  "description": "Twilio is a programmable communications platform (SMS, voice, video, email) with a broad REST API.",
+  "auth_methods": ["API_KEY", "TOKEN"],
+  "auth_evidence": {"urls": ["https://www.twilio.com/docs/iam/api-keys"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Free trial account with API keys available immediately on signup; account SID/auth token or scoped API keys both self-serve.",
+  "access_evidence": {"urls": ["https://www.twilio.com/docs/iam/api"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "SMS/messaging, voice, video, verify, and a large set of communications sub-products.",
+  "api_evidence": {"urls": ["https://www.twilio.com/docs/iam/api"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://www.twilio.com/docs/ai/mcp"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://www.twilio.com/docs/iam/api-keys", "https://www.twilio.com/docs/ai/mcp"],
+  "input_website_hint": "https://twilio.com"
+}

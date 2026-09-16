@@ -1,0 +1,58 @@
+{
+  "app": "Sherlock",
+  "category": "Data SEO and Scraping",
+  "description": "Sherlock is an open-source command-line tool that hunts for social media accounts registered under a given username across 400+ sites.",
+  "auth_methods": [
+    "NONE_FOUND"
+  ],
+  "auth_evidence": {
+    "urls": [
+      "https://github.com/sherlock-project/sherlock"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Not a hosted service with a signup/access process at all -- it is an MIT-licensed CLI tool installed locally via pip/pipx/Docker. There is no vendor account, no API key, no rate-gated backend. 'Self-serve free' here means 'freely installable,' not 'self-serve API access,' which is why this record is routed to human review rather than auto-approved as READY.",
+  "access_evidence": {
+    "urls": [
+      "https://github.com/sherlock-project/sherlock"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "api_types": [
+    "CLI"
+  ],
+  "api_breadth": "NARROW",
+  "api_notes": "Single-purpose tool: given a username, checks 400+ sites for a matching registered account and prints/saves results. No other capabilities.",
+  "api_evidence": {
+    "urls": [
+      "https://github.com/sherlock-project/sherlock"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {
+    "urls": [
+      "https://github.com/Burnsedia/sherlock-mcp",
+      "https://apify.com/jungle_synthesizer/sherlock-scraper/api/mcp"
+    ],
+    "source_type": "THIRD_PARTY",
+    "verified": true
+  },
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Not a company-backed API at all -- it's a locally-run open-source CLI with no vendor, no account model, and no company to partner with. A toolkit is technically possible (wrap the CLI/Docker image as a tool), but this doesn't fit Composio's usual 'call a vendor's API on a user's behalf' integration model, so a human should decide whether a CLI-wrapper toolkit is in scope before building it.",
+  "confidence": "MEDIUM",
+  "review_flags": [
+    "ACCESS_UNCLEAR"
+  ],
+  "sources": [
+    "https://github.com/sherlock-project/sherlock",
+    "https://github.com/Burnsedia/sherlock-mcp"
+  ],
+  "input_website_hint": "https://github.com/sherlock-project/sherlock",
+  "access_conditional_gate": false,
+  "pipeline_version": "v2"
+}

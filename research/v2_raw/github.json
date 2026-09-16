@@ -1,0 +1,23 @@
+{
+  "app": "GitHub",
+  "category": "Developer Infra and Data Platforms",
+  "description": "GitHub is a code hosting and collaboration platform with a broad REST/GraphQL API for repos, issues, pull requests, and Actions.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api", "https://docs.github.com/en/rest/apps/oauth-applications"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Personal access tokens and OAuth apps are self-serve for any GitHub account, free tier included.",
+  "access_evidence": {"urls": ["https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST", "GRAPHQL"],
+  "api_breadth": "BROAD",
+  "api_notes": "Repos, issues, pull requests, Actions, organizations, and packages -- one of the most comprehensive developer-platform APIs.",
+  "api_evidence": {"urls": ["https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/github/github-mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api", "https://github.com/github/github-mcp-server"],
+  "input_website_hint": "https://docs.github.com/rest"
+}

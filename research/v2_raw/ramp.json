@@ -1,0 +1,23 @@
+{
+  "app": "Ramp",
+  "category": "Finance and Fintech",
+  "description": "Ramp is a corporate card and spend-management platform with a REST API using OAuth2 client credentials for transactions, cards, and bill pay.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://support.ramp.com/accessing-the-developer-api"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Any Ramp account admin can self-serve create a developer app and OAuth2 client-credentials for their own organization's data. Building an app that connects to other Ramp businesses (ISV/partner distribution) requires a separate 'production access' application and Ramp approval.",
+  "access_evidence": {"urls": ["https://support.ramp.com/accessing-the-developer-api"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Transactions, cards, bill pay, and reimbursements, scoped via OAuth2 scopes; additional scopes available on request via support ticket.",
+  "api_evidence": {"urls": ["https://support.ramp.com/accessing-the-developer-api"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/ramp-public/ramp_mcp", "https://www.pulsemcp.com/servers/ramp"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["CONDITIONAL_ACCESS", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://support.ramp.com/accessing-the-developer-api", "https://github.com/ramp-public/ramp_mcp"],
+  "input_website_hint": "https://docs.ramp.com"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "Zoho Cliq",
+  "category": "Communications and Messaging",
+  "description": "Zoho Cliq is a team chat/messaging app in the Zoho suite with a REST API and bot/webhook platform.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://www.zoho.com/cliq/help/restapi/v3/oauth/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Self-serve OAuth app registration via the Zoho API console, same model as other Zoho products.",
+  "access_evidence": {"urls": ["https://www.zoho.com/cliq/help/restapi/v3/introduction/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Messaging, channels, bots, and webhook-based extensions.",
+  "api_evidence": {"urls": ["https://www.zoho.com/cliq/help/restapi/v3/introduction/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://www.zoho.com/cliq/help/platform/zoho-cliq-mcp.html"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://www.zoho.com/cliq/help/restapi/v3/oauth/", "https://www.zoho.com/cliq/help/platform/zoho-cliq-mcp.html"],
+  "input_website_hint": "https://zoho.com/cliq"
+}

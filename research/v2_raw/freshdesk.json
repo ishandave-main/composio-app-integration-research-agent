@@ -1,0 +1,23 @@
+{
+  "app": "Freshdesk",
+  "category": "Support and Helpdesk",
+  "description": "Freshdesk is a customer support ticketing platform (Freshworks) with a REST API for tickets, contacts, and agents.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://support.freshdesk.com/en/support/solutions/articles/50000003346-api-key-based-authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API key is visible directly on each agent's profile page; Freshdesk has a free tier and free trial, both give API access.",
+  "access_evidence": {"urls": ["https://support.freshdesk.com/support/solutions/articles/215517-how-to-find-your-api-key"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Tickets, contacts, companies, agents, and canned responses.",
+  "api_evidence": {"urls": ["https://support.freshdesk.com/en/support/solutions/articles/50000003346-api-key-based-authentication"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://www.pulsemcp.com/servers/effytech-freshdesk"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://support.freshdesk.com/en/support/solutions/articles/50000003346-api-key-based-authentication"],
+  "input_website_hint": "https://freshdesk.com"
+}

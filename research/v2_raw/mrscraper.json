@@ -1,0 +1,23 @@
+{
+  "app": "MrScraper",
+  "category": "Data SEO and Scraping",
+  "description": "MrScraper is a web-scraping API/tool (with AI-assisted scraping and a CLI) for extracting structured data from websites.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://docs.mrscraper.com/docs/features/activating-api"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "UNCLEAR",
+  "access_notes": "Official docs describe an 'Activating API' feature and a public CLI/SDK exist, but pricing/free-tier terms were not found in this pass.",
+  "access_evidence": {"urls": ["https://docs.mrscraper.com/docs/features/activating-api"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST", "CLI"],
+  "api_breadth": "NARROW",
+  "api_notes": "Scraping API plus a residential-proxy feature and usage analytics; a narrower, single-purpose product compared to Apify/Bright Data.",
+  "api_evidence": {"urls": ["https://docs.mrscraper.com/docs/features/activating-api"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Pricing/access-tier terms not confirmed from official sources.",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["ACCESS_UNCLEAR"],
+  "sources": ["https://docs.mrscraper.com/docs/features/activating-api"],
+  "input_website_hint": "https://docs.mrscraper.com"
+}

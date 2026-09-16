@@ -1,0 +1,23 @@
+{
+  "app": "Magento (Adobe Commerce)",
+  "category": "Ecommerce",
+  "description": "Adobe Commerce (Magento) is an ecommerce platform with a REST/GraphQL Web API; a free open-source edition (Magento Open Source) also exists.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Magento Open Source is free/self-hosted with self-serve API token generation from the admin panel. Adobe Commerce (the paid/managed edition) is licensed, but the API access mechanism itself is not a separate gate beyond having an instance.",
+  "access_evidence": {"urls": ["https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST", "GRAPHQL"],
+  "api_breadth": "BROAD",
+  "api_notes": "Products, orders, customers, and a large catalog/checkout GraphQL surface.",
+  "api_evidence": {"urls": ["https://developer.adobe.com/commerce/webapi/rest/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/thomastx05/magento-mcp"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/", "https://developer.adobe.com/commerce/webapi/rest/"],
+  "input_website_hint": "https://developer.adobe.com/commerce"
+}

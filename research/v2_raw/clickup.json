@@ -1,0 +1,23 @@
+{
+  "app": "ClickUp",
+  "category": "Productivity and Project Management",
+  "description": "ClickUp is an all-in-one productivity/project-management platform with a REST API for tasks, lists, and docs.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://developer.clickup.com/docs/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Personal API tokens or OAuth2 apps are self-serve for any ClickUp workspace, including the free plan.",
+  "access_evidence": {"urls": ["https://developer.clickup.com/docs/Getting%20Started"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Tasks, lists, folders, docs, goals, and time tracking.",
+  "api_evidence": {"urls": ["https://developer.clickup.com/docs/Getting%20Started"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://help.clickup.com/hc/en-us/articles/33335772678423-What-is-ClickUp-MCP", "https://feedback.clickup.com/public-api/p/clickup-mcp-server-first-party-and-official"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developer.clickup.com/docs/authentication", "https://help.clickup.com/hc/en-us/articles/33335772678423-What-is-ClickUp-MCP"],
+  "input_website_hint": "https://clickup.com/api"
+}

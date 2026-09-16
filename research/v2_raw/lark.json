@@ -1,0 +1,23 @@
+{
+  "app": "Lark (Larksuite)",
+  "category": "Communications and Messaging",
+  "description": "Lark is an all-in-one workspace/messaging suite (ByteDance) with a Server API for messaging, docs, and authentication.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://open.larksuite.com/document/home/introduction-to-scope-and-authorization/overview"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Self-serve developer app creation on the official open platform (open.larksuite.com), same pattern as Feishu/Lark's China counterpart.",
+  "access_evidence": {"urls": ["https://open.larksuite.com/document/home/introduction-to-scope-and-authorization/overview"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Messaging, docs, calendar, approval, and other workspace-suite APIs.",
+  "api_evidence": {"urls": ["https://open.larksuite.com/document/ukTMukTMukTM/uMTNz4yM1MjLzUzM"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/larksuite/lark-openapi-mcp"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://open.larksuite.com/document/home/introduction-to-scope-and-authorization/overview", "https://github.com/larksuite/lark-openapi-mcp"],
+  "input_website_hint": "https://open.larksuite.com"
+}

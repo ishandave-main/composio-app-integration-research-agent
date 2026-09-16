@@ -1,0 +1,23 @@
+{
+  "app": "Amazon Selling Partner",
+  "category": "Ecommerce",
+  "description": "Amazon Selling Partner API (SP-API) lets developers manage listings, orders, and fulfillment for Amazon sellers/vendors.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "ADMIN_GATED",
+  "access_notes": "Requires registering as an SP-API developer and registering an application through Seller Central; a private app works against the developer's own seller account fairly directly, but a public app (for other sellers to authorize) must go through Amazon's app approval/publishing process, and certain data categories require an additional Restricted Data Token grant. This is a multi-step, Amazon-gated flow rather than an open self-serve API key.",
+  "access_evidence": {"urls": ["https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Orders, listings, inventory, fulfillment, reports -- a large surface reflecting the full seller/vendor workflow.",
+  "api_evidence": {"urls": ["https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://www.datadoe.com/connect/amazon/mcp"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "FEASIBLE_WITH_SETUP",
+  "main_blocker": "Public-app distribution and restricted-data access both require Amazon approval steps beyond basic developer registration.",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["CONDITIONAL_ACCESS"],
+  "sources": ["https://developer-docs.amazon.com/sp-api/docs/authorizing-selling-partner-api-applications", "https://developer-docs.amazon.com/sp-api/docs/selling-partner-appstore-authorization-workflow"],
+  "input_website_hint": "https://developer-docs.amazon.com/sp-api"
+}

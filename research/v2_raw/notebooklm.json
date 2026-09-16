@@ -1,0 +1,23 @@
+{
+  "app": "NotebookLM",
+  "category": "AI Research and Media-native",
+  "description": "NotebookLM is Google's AI research/notebook assistant. The free consumer product has no public API; a separate paid 'Gemini Notebook Enterprise' product exposes an official Google Cloud REST API.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "ADMIN_GATED",
+  "access_notes": "The free consumer NotebookLM product (notebooklm.google.com) has no official public API -- only unofficial reverse-engineered Python wrappers exist (e.g. notebooklm-py, explicitly labeled 'Unofficial'). A separate enterprise product, 'Gemini Notebook Enterprise', has an official Google Cloud REST API, but it requires setting up Gemini Notebook Enterprise and obtaining licenses via Google Cloud -- not self-serve, and marked 'Preview' under Pre-GA terms.",
+  "access_evidence": {"urls": ["https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "NARROW",
+  "api_notes": "The Enterprise API covers creating and managing notebooks; the free consumer product has no documented API surface at all.",
+  "api_evidence": {"urls": ["https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/google/mcp/issues/19", "https://mcpservers.org/servers/moodrobotics/notebooklm-mcp-server"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "GATED",
+  "main_blocker": "The free consumer product has no public API; the only official API belongs to a separate paid/licensed enterprise product requiring Google Cloud setup.",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["CONDITIONAL_ACCESS", "NON_STANDARD_INTEGRATION_MODEL"],
+  "sources": ["https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks", "https://github.com/b08x/notebooklm-py"],
+  "input_website_hint": "https://cloud.google.com/gemini"
+}

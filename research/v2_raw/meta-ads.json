@@ -1,0 +1,23 @@
+{
+  "app": "Meta Ads",
+  "category": "Marketing Ads Email and Social",
+  "description": "Meta Marketing API lets developers manage ad campaigns across Facebook and Instagram.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://developers.facebook.com/docs/marketing-api/get-started/authentication/"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_TRIAL",
+  "access_notes": "Managing your own ad account with a user/system-user access token is achievable self-serve. Widely reported (but not independently confirmed against an official page in this pass) that broader marketing permissions beyond your own account require Meta App Review -- same unresolved-official-confirmation situation as WhatsApp Business in this dataset. Flagged for review rather than asserted.",
+  "access_evidence": {"urls": ["https://developers.facebook.com/docs/marketing-api/get-started/authentication/"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Campaign, ad set, ad, creative, and insights/reporting objects across Facebook and Instagram placements.",
+  "api_evidence": {"urls": ["https://developers.facebook.com/docs/marketing-api/get-started/authentication/"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://www.markifact.com/meta-ads-mcp", "https://github.com/mikusnuz/meta-mcp"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Production/App-Review gating for broader marketing permissions could not be confirmed from an official page fetched in this pass (same class of gap as WhatsApp Business).",
+  "access_conditional_gate": true,
+  "confidence": "LOW",
+  "review_flags": ["ACCESS_UNCLEAR"],
+  "sources": ["https://developers.facebook.com/docs/marketing-api/get-started/authentication/"],
+  "input_website_hint": "https://developers.facebook.com/docs/marketing-apis"
+}

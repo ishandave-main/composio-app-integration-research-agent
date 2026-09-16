@@ -1,0 +1,23 @@
+{
+  "app": "Pumble",
+  "category": "Communications and Messaging",
+  "description": "Pumble is a team chat app (by CAKE.com) offering an API-keys-based integration add-on for channel and messaging automation.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "UNCLEAR",
+  "access_notes": "API access is presented as an 'API Keys integration' add-on inside Pumble's help center rather than a standalone developer platform -- it was not confirmed whether this add-on is available on the free plan or requires a paid plan.",
+  "access_evidence": {"urls": ["https://pumble.com/pricing"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "NARROW",
+  "api_notes": "Documentation found is limited to the API-keys integration help article rather than a full endpoint reference; breadth likely narrow (channel/message actions) but not fully confirmed.",
+  "api_evidence": {"urls": ["https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/apet97/pumble-python-sdk"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Official developer documentation is thin (help-center article only); access-tier and full API breadth not confirmed.",
+  "access_conditional_gate": true,
+  "confidence": "LOW",
+  "review_flags": ["ACCESS_UNCLEAR", "API_UNCLEAR", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/", "https://github.com/apet97/pumble-python-sdk"],
+  "input_website_hint": "https://pumble.com"
+}

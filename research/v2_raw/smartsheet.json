@@ -1,0 +1,23 @@
+{
+  "app": "Smartsheet",
+  "category": "Productivity and Project Management",
+  "description": "Smartsheet is a spreadsheet-based work-management platform with a REST API for sheets, rows, and reports.",
+  "auth_methods": ["TOKEN", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API access tokens are self-generated from account settings; OAuth also documented for app developers.",
+  "access_evidence": {"urls": ["https://help.smartsheet.com/articles/2482389-generate-API-key"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Sheets, rows, columns, reports, and workspaces.",
+  "api_evidence": {"urls": ["https://developers.smartsheet.com/api/smartsheet/introduction"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/smartsheet-platform/smar-mcp", "https://www.smartsheet.com/marketplace/apps/conversational-ai-project-assistant-claude-mcp"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developers.smartsheet.com/api/smartsheet/guides/basics/authentication", "https://github.com/smartsheet-platform/smar-mcp"],
+  "input_website_hint": "https://smartsheet.com/developers"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "Discord",
+  "category": "Communications and Messaging",
+  "description": "Discord is a community/chat platform with a REST API for bots, messages, servers (guilds), and an OAuth2 identity layer.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://docs.discord.com/developers/topics/oauth2"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Creating a Discord application and bot token is free and self-serve via the Developer Portal.",
+  "access_evidence": {"urls": ["https://docs.discord.com/developers/topics/oauth2"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Guilds/servers, channels, messages, members, roles, and a large gateway/events surface for bots.",
+  "api_evidence": {"urls": ["https://docs.discord.com/developers/topics/oauth2"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/SaseQ/discord-mcp", "https://github.com/hanweg/mcp-discord"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.discord.com/developers/topics/oauth2"],
+  "input_website_hint": "https://discord.com"
+}

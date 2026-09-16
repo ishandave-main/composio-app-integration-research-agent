@@ -1,0 +1,23 @@
+{
+  "app": "Binance",
+  "category": "Finance and Fintech",
+  "description": "Binance is a cryptocurrency exchange with a REST API covering spot trading, wallets, margin, futures, and market data.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://developers.binance.com/docs/binance-spot-api-docs/rest-api"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API keys (HMAC, RSA, or Ed25519) are self-generated from the account's API Management page. Trading permission is a self-service toggle the account holder enables themselves; no vendor approval step.",
+  "access_evidence": {"urls": ["https://developers.binance.com/docs/binance-spot-api-docs/rest-api"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Spot trading, futures, options, margin, wallet services, market data, and advanced order types across multiple base endpoints.",
+  "api_evidence": {"urls": ["https://developers.binance.com/docs/binance-spot-api-docs/rest-api"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/nirholas/Binance-MCP", "https://github.com/AnalyticAce/binance-mcp-server"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "HIGH",
+  "review_flags": [],
+  "sources": ["https://developers.binance.com/docs/binance-spot-api-docs/rest-api", "https://developers.binance.com/docs/binance-spot-api-docs/faqs/api_key_types"],
+  "input_website_hint": "https://binance-docs.github.io"
+}

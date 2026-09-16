@@ -1,0 +1,23 @@
+{
+  "app": "Harvest",
+  "category": "Productivity and Project Management",
+  "description": "Harvest is a time-tracking and invoicing tool with a REST API (v2) for time entries, projects, and invoices.",
+  "auth_methods": ["TOKEN", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Personal access tokens are self-generated from account settings for any Harvest account, including its free trial.",
+  "access_evidence": {"urls": ["https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Time entries, projects, clients, invoices, and expenses.",
+  "api_evidence": {"urls": ["https://help.getharvest.com/api-v2/introduction/overview/general/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/taiste/harvest-mcp-server", "https://mcpservers.org/servers/ianaleck/harvest-mcp-server"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"],
+  "input_website_hint": "https://help.getharvest.com/api-v2"
+}

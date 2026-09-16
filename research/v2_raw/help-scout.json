@@ -1,0 +1,23 @@
+{
+  "app": "Help Scout",
+  "category": "Support and Helpdesk",
+  "description": "Help Scout is an email-based helpdesk with a REST API (Mailbox API) for conversations, customers, and mailboxes.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://developer.helpscout.com/mailbox-api/overview/authentication/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "OAuth2 app registration is self-serve via the developer portal.",
+  "access_evidence": {"urls": ["https://developer.helpscout.com/apps/getting-started/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Conversations, customers, mailboxes, reports.",
+  "api_evidence": {"urls": ["https://developer.helpscout.com/mailbox-api/endpoints/conversations/get/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "UNCLEAR",
+  "mcp_evidence": {"urls": ["https://www.eesel.ai/blog/claude-for-helpscout"], "source_type": "THIRD_PARTY", "verified": false},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "A third-party article calls this 'the official Help Scout MCP server,' but a site-restricted search of developer.helpscout.com found no matching official MCP page -- classified UNCLEAR rather than trusting the third-party 'official' label, pending a direct check.",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["CONFLICTING_SOURCES", "MCP_UNVERIFIED"],
+  "sources": ["https://developer.helpscout.com/mailbox-api/overview/authentication/", "https://www.eesel.ai/blog/claude-for-helpscout"],
+  "input_website_hint": "https://helpscout.com"
+}

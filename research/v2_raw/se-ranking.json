@@ -1,0 +1,23 @@
+{
+  "app": "SE Ranking",
+  "category": "Data SEO and Scraping",
+  "description": "SE Ranking is an SEO/rank-tracking platform with a REST API for keyword, project, and data-source endpoints.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://seranking.com/api/how-to-get-api/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "PAID",
+  "access_notes": "API access is tied to an SE Ranking subscription plan per the official 'Getting API access' guide; not a free-standing free tier.",
+  "access_evidence": {"urls": ["https://seranking.com/api/how-to-get-api/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Data API (keyword/SERP/domain metrics) and Project API (rank-tracking project management) as separate documented products.",
+  "api_evidence": {"urls": ["https://seranking.com/api/data/getting-started/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://seranking.com/api/integrations/mcp/"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "FEASIBLE_WITH_SETUP",
+  "main_blocker": "Requires a paid SE Ranking subscription for API access.",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://seranking.com/api/how-to-get-api/", "https://seranking.com/api/integrations/mcp/"],
+  "input_website_hint": "https://seranking.com/api"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "Threads (Meta)",
+  "category": "Marketing Ads Email and Social",
+  "description": "The Threads API lets developers publish posts and read basic insights for a Threads account, built on Meta's Graph API pattern.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://developers.facebook.com/docs/threads/get-started/get-access-tokens-and-permissions/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_TRIAL",
+  "access_notes": "Dev/test access to your own account is self-serve through a Meta developer app; broader access likely follows the same Meta App Review pattern as WhatsApp/Meta Ads in this dataset, not independently re-confirmed here.",
+  "access_evidence": {"urls": ["https://developers.facebook.com/docs/threads/get-started/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "NARROW",
+  "api_notes": "Publishing (text/image/video posts), replies, and basic insights -- a narrower surface than the established Graph API products.",
+  "api_evidence": {"urls": ["https://developers.facebook.com/docs/threads/overview"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/mikusnuz/meta-mcp", "https://github.com/tttn13/threads-mcp"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "FEASIBLE_WITH_SETUP",
+  "main_blocker": "Same Meta App Review uncertainty noted for WhatsApp Business and Meta Ads applies here.",
+  "access_conditional_gate": true,
+  "confidence": "LOW",
+  "review_flags": ["ACCESS_UNCLEAR", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developers.facebook.com/docs/threads/get-started/get-access-tokens-and-permissions/", "https://developers.facebook.com/docs/threads/overview"],
+  "input_website_hint": "https://developers.facebook.com/docs/threads"
+}

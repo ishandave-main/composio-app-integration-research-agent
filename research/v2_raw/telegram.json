@@ -1,0 +1,23 @@
+{
+  "app": "Telegram",
+  "category": "Communications and Messaging",
+  "description": "Telegram is a messaging app; the Bot API lets developers build bots that send/receive messages, and a separate Client API exists for full account automation.",
+  "auth_methods": ["TOKEN"],
+  "auth_evidence": {"urls": ["https://core.telegram.org/bots"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Any user can create a bot and get a token instantly via @BotFather, entirely free and self-serve, per official docs.",
+  "access_evidence": {"urls": ["https://core.telegram.org/bots/tutorial"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Bot API covers sending/receiving messages, media, inline keyboards, and channel/group management -- broad for a bot-scoped interface, but bots cannot do everything a full user account can (that requires the separate MTProto Client API).",
+  "api_evidence": {"urls": ["https://core.telegram.org/bots/api"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "UNCLEAR",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://core.telegram.org/bots", "https://core.telegram.org/bots/api"],
+  "input_website_hint": "https://core.telegram.org"
+}

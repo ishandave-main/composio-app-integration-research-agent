@@ -1,0 +1,23 @@
+{
+  "app": "Shopify",
+  "category": "Ecommerce",
+  "description": "Shopify is an ecommerce platform with Admin, Storefront, and several agent-facing MCP APIs for products, orders, carts, and checkout.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://shopify.dev/docs/api/usage/authentication", "https://shopify.dev/docs/apps/auth/oauth/getting-started"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Custom app access tokens are self-serve from any store admin; public-app OAuth distribution goes through the Shopify Partner program, also free to join.",
+  "access_evidence": {"urls": ["https://shopify.dev/docs/apps/build/authentication-authorization/access-tokens/generate-app-access-tokens-admin"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST", "GRAPHQL"],
+  "api_breadth": "BROAD",
+  "api_notes": "Admin API (products, orders, customers, inventory) plus a growing family of agent-specific MCP servers (Storefront, Cart, Checkout, Customer Accounts) -- one of the most AI-agent-forward ecommerce platforms researched.",
+  "api_evidence": {"urls": ["https://shopify.dev/docs/apps/build/storefront-mcp"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://shopify.dev/docs/apps/build/storefront-mcp", "https://shopify.dev/docs/agents/carts-and-checkout/checkout-mcp"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://shopify.dev/docs/api/usage/authentication", "https://shopify.dev/docs/apps/build/storefront-mcp"],
+  "input_website_hint": "https://shopify.dev"
+}

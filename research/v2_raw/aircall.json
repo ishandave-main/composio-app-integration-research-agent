@@ -1,0 +1,23 @@
+{
+  "app": "Aircall",
+  "category": "Communications and Messaging",
+  "description": "Aircall is a cloud call-center/phone platform with a REST API for calls, contacts, and users, and an OAuth integration flow.",
+  "auth_methods": ["OAUTH2", "API_KEY"],
+  "auth_evidence": {"urls": ["https://developer.aircall.io/tutorials/how-aircall-oauth-flow-works"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Developer portal and API references are public and self-serve for building integrations.",
+  "access_evidence": {"urls": ["https://developers.aircall.io/api-references"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Calls, contacts, numbers, users, and webhooks for call events.",
+  "api_evidence": {"urls": ["https://developers.aircall.io/api-references"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/themobilefirstco/aircall-mcp-server"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developer.aircall.io/tutorials/how-aircall-oauth-flow-works", "https://developers.aircall.io/api-references"],
+  "input_website_hint": "https://aircall.io"
+}

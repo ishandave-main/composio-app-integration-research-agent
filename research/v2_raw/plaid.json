@@ -1,0 +1,23 @@
+{
+  "app": "Plaid",
+  "category": "Finance and Fintech",
+  "description": "Plaid is a financial data API connecting apps to users' bank accounts, covering payments, transactions, identity, and credit underwriting.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://plaid.com/docs/api/"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_TRIAL",
+  "access_notes": "Developers self-serve create a Dashboard account and immediately get Sandbox/Development API keys (client_id/secret). Production API access requires explicitly requesting approval via the Dashboard before using real bank data.",
+  "access_evidence": {"urls": ["https://plaid.com/docs/api/"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Payments/transfers, transactions, investments, liabilities, identity/KYC, fraud monitoring, and credit/income underwriting endpoints.",
+  "api_evidence": {"urls": ["https://plaid.com/docs/api/"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://plaid.com/docs/resources/mcp/", "https://plaid.com/blog/plaid-mcp-ai-assistant-claude/"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "FEASIBLE_WITH_SETUP",
+  "main_blocker": "Production access requires a separate approval request beyond initial signup.",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["CONDITIONAL_ACCESS", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://plaid.com/docs/api/", "https://plaid.com/docs/resources/mcp/"],
+  "input_website_hint": "https://plaid.com/docs"
+}

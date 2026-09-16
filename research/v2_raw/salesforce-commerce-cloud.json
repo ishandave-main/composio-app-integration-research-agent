@@ -1,0 +1,23 @@
+{
+  "app": "Salesforce Commerce Cloud",
+  "category": "Ecommerce",
+  "description": "Salesforce B2C Commerce (Commerce Cloud) is an enterprise ecommerce platform with the Shopper/Commerce APIs (SCAPI) and the legacy Open Commerce API.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "CONTACT_SALES",
+  "access_notes": "Unlike core Salesforce CRM, B2C Commerce has no free Developer Edition -- an API Client ID must be provisioned inside an existing Commerce Cloud instance (Account Manager), which requires being a paying B2C Commerce customer. This is an enterprise ecommerce product sold through Salesforce sales, not self-serve signup.",
+  "access_evidence": {"urls": ["https://help.salesforce.com/s/articleView?id=cc.b2c_account_manager_add_api_client_id.htm&language=en_US&type=5"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Shopper Commerce API (SCAPI) covers products, baskets, orders, customers; the older Open Commerce API (OCAPI) is being deprecated in favor of it.",
+  "api_evidence": {"urls": ["https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "GATED",
+  "main_blocker": "No public self-serve trial; requires an existing paid B2C Commerce Cloud org.",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": [],
+  "sources": ["https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html", "https://help.salesforce.com/s/articleView?id=cc.b2c_account_manager_add_api_client_id.htm&language=en_US&type=5"],
+  "input_website_hint": "https://developer.salesforce.com/docs/commerce"
+}

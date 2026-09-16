@@ -1,0 +1,23 @@
+{
+  "app": "Intercom",
+  "category": "Support and Helpdesk",
+  "description": "Intercom is a customer messaging and support platform (with the Fin AI agent) offering a REST API for conversations, contacts, and companies.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://developers.intercom.com/docs/build-an-integration/learn-more/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Developer/access token creation is self-serve through the Intercom Developer Hub for any workspace.",
+  "access_evidence": {"urls": ["https://developers.intercom.com/docs/build-an-integration/learn-more/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Conversations, contacts, companies, help center articles, and the Fin AI agent API.",
+  "api_evidence": {"urls": ["https://developers.intercom.com/docs/references/rest-api/api.intercom.io/admins"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://developers.intercom.com/docs/guides/mcp"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developers.intercom.com/docs/build-an-integration/learn-more/authentication", "https://developers.intercom.com/docs/guides/mcp"],
+  "input_website_hint": "https://intercom.com"
+}

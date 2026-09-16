@@ -1,0 +1,23 @@
+{
+  "app": "Gorgias",
+  "category": "Support and Helpdesk",
+  "description": "Gorgias is an ecommerce-focused helpdesk with a REST API for tickets, customers, and integrations with Shopify/BigCommerce.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://developers.gorgias.com/docs/access-tokens-api-keys", "https://developers.gorgias.com/docs/oauth2-authentication-for-creating-apps-with-gorgias"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Access tokens/API keys generated from account settings; OAuth2 available for app-store apps.",
+  "access_evidence": {"urls": ["https://developers.gorgias.com/docs/access-tokens-api-keys"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Tickets, customers, and ecommerce-integration-specific endpoints.",
+  "api_evidence": {"urls": ["https://developers.gorgias.com/reference/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://updates.gorgias.com/publications/gorgias-mcp-is-now-in-open-beta"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developers.gorgias.com/docs/access-tokens-api-keys", "https://updates.gorgias.com/publications/gorgias-mcp-is-now-in-open-beta"],
+  "input_website_hint": "https://gorgias.com"
+}

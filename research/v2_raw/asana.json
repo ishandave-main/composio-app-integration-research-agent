@@ -1,0 +1,23 @@
+{
+  "app": "Asana",
+  "category": "Productivity and Project Management",
+  "description": "Asana is a work-management/task-tracking platform with a REST API for tasks, projects, and workspaces.",
+  "auth_methods": ["TOKEN", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://developers.asana.com/docs/personal-access-token", "https://developers.asana.com/docs/oauth"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Personal access tokens are self-serve from account settings for any Asana account, including the free tier.",
+  "access_evidence": {"urls": ["https://developers.asana.com/docs/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Tasks, projects, workspaces, portfolios, and goals.",
+  "api_evidence": {"urls": ["https://developers.asana.com/docs/quick-start"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://developers.asana.com/docs/mcp-server", "https://developers.asana.com/docs/using-asanas-mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developers.asana.com/docs/personal-access-token", "https://developers.asana.com/docs/mcp-server"],
+  "input_website_hint": "https://developers.asana.com"
+}

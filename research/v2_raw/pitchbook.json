@@ -1,0 +1,23 @@
+{
+  "app": "PitchBook",
+  "category": "Finance and Fintech",
+  "description": "PitchBook is a private-market financial data provider offering a Company Data API for on-demand market and deal data.",
+  "auth_methods": ["UNCLEAR"],
+  "auth_evidence": {"urls": ["https://pitchbook.com/products/direct-access-data/api"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "CONTACT_SALES",
+  "access_notes": "The official product page emphasizes 'Request Direct Data' and having PitchBook's team 'work with you'; no self-serve signup or public pricing/API-key flow is documented, consistent with a subscription/data-license-gated product.",
+  "access_evidence": {"urls": ["https://pitchbook.com/products/direct-access-data/api"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "UNCLEAR",
+  "api_notes": "Described only as JSON-based and 'system agnostic'; no public endpoint reference or breadth detail found without a data license.",
+  "api_evidence": {"urls": ["https://pitchbook.com/products/direct-access-data/api"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://premium.mcp.pitchbook.com/mcp", "https://mcpservers.org/remote-mcp-servers/pitchbook"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "GATED",
+  "main_blocker": "Requires a PitchBook data subscription/sales engagement; no public self-serve signup or API key flow.",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["AUTH_UNCLEAR", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://pitchbook.com/products/direct-access-data/api", "https://mcpservers.org/remote-mcp-servers/pitchbook"],
+  "input_website_hint": "https://pitchbook.com"
+}

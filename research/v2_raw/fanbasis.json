@@ -1,0 +1,23 @@
+{
+  "app": "fanbasis",
+  "category": "Ecommerce",
+  "description": "FanBasis is a checkout/creator-monetization and sales-CRM platform providing a checkout SDK and API for payment/subscriber flows.",
+  "auth_methods": ["UNCLEAR"],
+  "auth_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "access_model": "UNCLEAR",
+  "access_notes": "The official docs subdomain (dev-docs.fanbasis.com) is login-gated -- no publicly readable description of the product, auth method, or access process was available in this pass. A public npm package (@fanbasis/checkout-sdk) exists, suggesting some public tooling, but the core API documentation itself could not be read.",
+  "access_evidence": {"urls": ["https://dev-docs.fanbasis.com/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["UNCLEAR"],
+  "api_breadth": "UNCLEAR",
+  "api_notes": "Could not confirm API breadth -- primary docs are behind a login wall.",
+  "api_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Primary developer documentation is login-gated; could not verify auth method, access model, or API breadth from public sources.",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["AUTH_UNCLEAR", "ACCESS_UNCLEAR", "API_UNCLEAR", "NO_OFFICIAL_SOURCE"],
+  "sources": ["https://dev-docs.fanbasis.com/", "https://www.npmjs.com/package/@fanbasis/checkout-sdk"],
+  "input_website_hint": "https://fanbasis.com"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "Podio",
+  "category": "CRM and Sales",
+  "description": "Podio is a customizable work-management/CRM platform with an OAuth2-based REST API for apps, items, and workspaces.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://developers.podio.com/authentication"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Registering an application to get a Client ID/Secret is a self-serve step on the official developer site; Podio itself has a free tier for up to 5 users, though exact API-specific pricing terms were not separately confirmed.",
+  "access_evidence": {"urls": ["https://developers.podio.com/authentication"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Covers Podio's custom \"apps\"/items model, workspaces, and files -- flexible but centered on Podio's own generic data model rather than a fixed CRM object set.",
+  "api_evidence": {"urls": ["https://developers.podio.com/authentication"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": [],
+  "sources": ["https://developers.podio.com/authentication", "https://developers.podio.com/doc/oauth-authorization"],
+  "input_website_hint": "https://podio.com"
+}

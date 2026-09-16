@@ -1,0 +1,23 @@
+{
+  "app": "Pylon",
+  "category": "Support and Helpdesk",
+  "description": "Pylon (usepylon.com) is a B2B customer support/customer-ops platform unifying Slack, Teams, email, and chat into one ticketing system with a REST API.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://docs.usepylon.com/pylon-docs/developer/api/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Documented REST API at api.usepylon.com with self-serve key generation described in official docs.",
+  "access_evidence": {"urls": ["https://docs.usepylon.com/pylon-docs/developer/api/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Knowledge base, accounts, contacts, and teams endpoints documented.",
+  "api_evidence": {"urls": ["https://docs.usepylon.com/pylon-docs/developer/api/api-reference/accounts"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp", "https://support.usepylon.com/articles/2407390554-connecting-to-the-pylon-mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.usepylon.com/pylon-docs/developer/api/authentication", "https://docs.usepylon.com/pylon-docs/integrations/pylon-mcp"],
+  "input_website_hint": "https://usepylon.com"
+}

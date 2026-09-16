@@ -1,0 +1,23 @@
+{
+  "app": "Pinterest",
+  "category": "Marketing Ads Email and Social",
+  "description": "Pinterest API v5 lets developers manage pins, boards, and ad campaigns for a Pinterest business account.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "App creation and OAuth setup are self-serve via the developer portal for a standard access tier; higher trial/standard API access tiers exist for scale, per Pinterest's own docs structure, but were not further probed in this pass.",
+  "access_evidence": {"urls": ["https://developers.pinterest.com/docs/getting-started/set-up-app/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Pins, boards, ad campaigns, and conversions/analytics.",
+  "api_evidence": {"urls": ["https://developers.pinterest.com/docs/api/v5/oauth-conversion_token/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://www.pulsemcp.com/servers/terryso-pinterest"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developers.pinterest.com/docs/getting-started/set-up-authentication-and-authorization/"],
+  "input_website_hint": "https://developers.pinterest.com"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "Twenty",
+  "category": "CRM and Sales",
+  "description": "Twenty is an open-source CRM with REST and GraphQL APIs, positioned as a modern, self-hostable alternative to Salesforce.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://docs.twenty.com/developers/introduction"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Open source and self-hostable at no cost; a hosted cloud version also exists. API/developer docs are public with no gating found.",
+  "access_evidence": {"urls": ["https://docs.twenty.com/developers/introduction"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST", "GRAPHQL"],
+  "api_breadth": "MODERATE",
+  "api_notes": "REST and GraphQL APIs plus webhooks, covering the core CRM object model (people, companies, opportunities, tasks, notes).",
+  "api_evidence": {"urls": ["https://docs.twenty.com/developers/introduction"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/mhenry3164/twenty-crm-mcp-server", "https://github.com/jezweb/twenty-mcp"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": [],
+  "sources": ["https://docs.twenty.com/developers/introduction", "https://github.com/twentyhq/twenty"],
+  "input_website_hint": "https://twenty.com"
+}

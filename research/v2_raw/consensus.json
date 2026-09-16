@@ -1,0 +1,23 @@
+{
+  "app": "Consensus",
+  "category": "AI Research and Media-native",
+  "description": "Consensus is an AI-powered academic search engine over 220+ million peer-reviewed papers, with a REST API for search and evidence retrieval.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://docs.consensus.app/api-get-started"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API keys are self-generated from the account's API & MCP Dashboard with no approval step. Some capabilities (e.g. returning full-text passage chunks) are gated to paid plans.",
+  "access_evidence": {"urls": ["https://docs.consensus.app/api-get-started"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Single search endpoint returning titles, authors, journals, publication years, citation counts, and (on paid plans) full-text passage matches across 220M+ papers.",
+  "api_evidence": {"urls": ["https://docs.consensus.app/api-get-started"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://docs.consensus.app/docs/mcp", "https://mcpservers.org/remote-mcp-servers/consensus"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["CONDITIONAL_ACCESS", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.consensus.app/api-get-started", "https://docs.consensus.app/docs/mcp"],
+  "input_website_hint": "https://consensus.app"
+}

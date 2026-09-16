@@ -1,0 +1,23 @@
+{
+  "app": "Monday.com",
+  "category": "Productivity and Project Management",
+  "description": "monday.com is a work OS / project-management platform with a GraphQL API for boards, items, and columns.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://developer.monday.com/api-reference/docs/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API tokens are self-generated from account admin settings, including on the free plan.",
+  "access_evidence": {"urls": ["https://developer.monday.com/api-reference/docs/getting-started"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["GRAPHQL"],
+  "api_breadth": "BROAD",
+  "api_notes": "Boards, items, columns, updates, and a large app/integration framework (OAuth apps, webhooks).",
+  "api_evidence": {"urls": ["https://developer.monday.com/api-reference/docs/getting-started"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://developer.monday.com/api-reference/docs/mcp-api-token"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developer.monday.com/api-reference/docs/authentication", "https://developer.monday.com/api-reference/docs/mcp-api-token"],
+  "input_website_hint": "https://developer.monday.com"
+}

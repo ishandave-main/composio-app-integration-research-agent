@@ -1,0 +1,23 @@
+{
+  "app": "Mermaid CLI",
+  "category": "AI Research and Media-native",
+  "description": "Mermaid CLI (mmdc) is an open-source command-line tool for rendering Mermaid diagram syntax to PNG, SVG, or PDF -- a local tool, not a hosted SaaS API.",
+  "auth_methods": ["NONE_FOUND"],
+  "auth_evidence": {"urls": ["https://github.com/mermaid-js/mermaid-cli"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Installed locally via npm (no account, no signup); open-source under the mermaid-js GitHub organization.",
+  "access_evidence": {"urls": ["https://github.com/mermaid-js/mermaid-cli"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["CLI"],
+  "api_breadth": "NARROW",
+  "api_notes": "Single-purpose: renders Mermaid diagram text to image/PDF output via command-line invocation, not a network API.",
+  "api_evidence": {"urls": ["https://github.com/mermaid-js/mermaid-cli"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/peng-shawn/mermaid-mcp-server", "https://github.com/Narasimhaponnada/mermaid-mcp"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "This is a local CLI rendering tool with no accounts, network API, or auth surface, not a typical hosted SaaS integration -- a human should confirm whether a CLI-wrapper toolkit model fits the intended agent-integration pattern. Note: a separate commercial product, Mermaid Chart (mermaid.ai), has its own official MCP server, but that is a distinct product from this open-source CLI.",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["NON_STANDARD_INTEGRATION_MODEL"],
+  "sources": ["https://github.com/mermaid-js/mermaid-cli"],
+  "input_website_hint": "https://github.com/mermaid-js/mermaid-cli"
+}

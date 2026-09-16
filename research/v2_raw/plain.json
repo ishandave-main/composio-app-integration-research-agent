@@ -1,0 +1,23 @@
+{
+  "app": "Plain",
+  "category": "Support and Helpdesk",
+  "description": "Plain is a modern B2B customer support platform with a GraphQL API for threads, customers, and tiers.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://www.plain.com/docs/graphql/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "GraphQL API with documented authentication guide, no gating found.",
+  "access_evidence": {"urls": ["https://www.plain.com/docs/graphql/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["GRAPHQL"],
+  "api_breadth": "MODERATE",
+  "api_notes": "GraphQL-only surface for threads/tickets, customers, and support tiers.",
+  "api_evidence": {"urls": ["https://www.plain.com/docs/graphql/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "UNCLEAR",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://www.plain.com/docs/graphql/authentication"],
+  "input_website_hint": "https://plain.com"
+}

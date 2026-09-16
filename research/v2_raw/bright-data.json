@@ -1,0 +1,23 @@
+{
+  "app": "Bright Data",
+  "category": "Data SEO and Scraping",
+  "description": "Bright Data is a large-scale web-data/proxy platform offering scraping APIs, proxy networks, and pre-built dataset access.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://docs.brightdata.com/api-reference/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_TRIAL",
+  "access_notes": "Self-serve signup; the MCP server specifically advertises a free plan to start, while the core proxy/scraping infrastructure is usage-priced beyond a trial.",
+  "access_evidence": {"urls": ["https://brightdata.com/ai/mcp-server", "https://brightdata.com/pricing/mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Web Unlocker/scraping APIs, proxy network management, and dozens of pre-built site-specific data collectors (LinkedIn, Indeed, Facebook Marketplace, etc.).",
+  "api_evidence": {"urls": ["https://docs.brightdata.com/products/mcp-server/overview"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://docs.brightdata.com/products/mcp-server/overview", "https://brightdata.com/ai/mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.brightdata.com/api-reference/authentication", "https://docs.brightdata.com/products/mcp-server/overview"],
+  "input_website_hint": "https://brightdata.com"
+}

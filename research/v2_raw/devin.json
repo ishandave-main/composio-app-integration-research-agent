@@ -1,0 +1,23 @@
+{
+  "app": "Devin",
+  "category": "AI Research and Media-native",
+  "description": "Devin (by Cognition) is an autonomous AI software engineer with an Organization API for sessions, knowledge, and playbooks, plus a separate Enterprise API.",
+  "auth_methods": ["TOKEN"],
+  "auth_evidence": {"urls": ["https://docs.devin.ai/api-reference/overview"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "PAID",
+  "access_notes": "Cognition's own blog confirms 'self-serve plans for Devin', meaning signup and API key generation happen without a sales process, but Devin is a paid product (no free tier found) -- so API use requires an active paid plan. The Enterprise API tier (cross-org analytics, billing, audit logs) is further restricted to enterprise customers.",
+  "access_evidence": {"urls": ["https://cognition.com/blog/new-self-serve-plans-for-devin", "https://docs.devin.ai/api-reference/overview"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Organization API: sessions, knowledge, playbooks, secrets, resource management. Enterprise API: cross-org analytics, audit logs, user management, billing.",
+  "api_evidence": {"urls": ["https://docs.devin.ai/api-reference/overview"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://docs.devin.ai/work-with-devin/devin-mcp"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "FEASIBLE_WITH_SETUP",
+  "main_blocker": "Requires an active paid Devin plan; no free tier found.",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["CONDITIONAL_ACCESS", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.devin.ai/api-reference/overview", "https://docs.devin.ai/work-with-devin/devin-mcp", "https://cognition.com/blog/new-self-serve-plans-for-devin"],
+  "input_website_hint": "https://docs.devin.ai"
+}

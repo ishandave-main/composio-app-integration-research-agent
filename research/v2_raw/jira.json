@@ -1,0 +1,23 @@
+{
+  "app": "Jira",
+  "category": "Productivity and Project Management",
+  "description": "Jira (Atlassian) is an issue-tracking/project-management tool with a REST API for issues, projects, and workflows.",
+  "auth_methods": ["OAUTH2", "API_KEY"],
+  "auth_evidence": {"urls": ["https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "OAuth 2.0 (3LO) apps and API tokens are self-serve via the Atlassian developer console for any account, including Jira's free tier.",
+  "access_evidence": {"urls": ["https://developer.atlassian.com/cloud/jira/platform/security-for-other-integrations/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Issues, projects, workflows, and (through the broader Atlassian platform) Confluence, Jira Service Management, Bitbucket, and Compass.",
+  "api_evidence": {"urls": ["https://developer.atlassian.com/cloud/jira/platform/security-for-other-integrations/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/atlassian/atlassian-mcp-server", "https://atlassian.github.io/atlassian-mcp-server/"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/", "https://github.com/atlassian/atlassian-mcp-server"],
+  "input_website_hint": "https://developer.atlassian.com"
+}

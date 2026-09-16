@@ -1,0 +1,23 @@
+{
+  "app": "Ecwid",
+  "category": "Ecommerce",
+  "description": "Ecwid (by Lightspeed) is an embeddable ecommerce platform with a REST API for products, orders, and store data.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://api-docs.ecwid.com/reference/authentication-basics"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Public documentation and a free Ecwid plan exist; app/token creation is self-serve through the developer docs.",
+  "access_evidence": {"urls": ["https://docs.ecwid.com/get-started/make-your-first-api-request"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Products, categories, orders, and storefront customization endpoints.",
+  "api_evidence": {"urls": ["https://api-docs.ecwid.com/reference/rest-api"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://api-docs.ecwid.com/reference/authentication-basics", "https://docs.ecwid.com/get-started/make-your-first-api-request"],
+  "input_website_hint": "https://api-docs.ecwid.com"
+}

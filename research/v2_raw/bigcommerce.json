@@ -1,0 +1,23 @@
+{
+  "app": "BigCommerce",
+  "category": "Ecommerce",
+  "description": "BigCommerce is a SaaS ecommerce platform with a REST/GraphQL API for products, orders, and storefront data.",
+  "auth_methods": ["OAUTH2", "API_KEY"],
+  "auth_evidence": {"urls": ["https://developer.bigcommerce.com/api-docs/getting-started/basics/authentication", "https://developer.bigcommerce.com/docs/start/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API accounts (legacy) or OAuth apps are created directly from the store control panel; free trial stores get full API access.",
+  "access_evidence": {"urls": ["https://developer.bigcommerce.com/docs/start/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST", "GRAPHQL"],
+  "api_breadth": "BROAD",
+  "api_notes": "Products, orders, customers, carts, and a GraphQL Storefront API.",
+  "api_evidence": {"urls": ["https://developer.bigcommerce.com/api-docs/getting-started/basics/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://apify.com/jupri/bigcommerce/api/mcp"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developer.bigcommerce.com/api-docs/getting-started/basics/authentication"],
+  "input_website_hint": "https://developer.bigcommerce.com"
+}

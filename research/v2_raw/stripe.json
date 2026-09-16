@@ -1,0 +1,58 @@
+{
+  "app": "Stripe",
+  "category": "Finance and Fintech",
+  "description": "Stripe is a payments and financial infrastructure platform that lets businesses accept payments, manage subscriptions, and move money programmatically.",
+  "auth_methods": [
+    "API_KEY",
+    "OAUTH2"
+  ],
+  "auth_evidence": {
+    "urls": [
+      "https://docs.stripe.com/keys",
+      "https://docs.stripe.com/mcp"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Anyone can create a free Stripe account and immediately get sandbox/test API keys and live keys after signup; no approval gate for API access itself. Stripe charges transaction fees on live payments processed, but that is a usage fee, not a developer-access gate.",
+  "access_evidence": {
+    "urls": [
+      "https://docs.stripe.com/keys"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "BROAD",
+  "api_notes": "REST API at api.stripe.com covering payments, customers, subscriptions, invoices, payouts, tax, issuing, connected accounts, and more. Official client libraries in 7 languages.",
+  "api_evidence": {
+    "urls": [
+      "https://docs.stripe.com/api"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {
+    "urls": [
+      "https://docs.stripe.com/mcp"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "buildability": "READY",
+  "main_blocker": "",
+  "confidence": "HIGH",
+  "review_flags": [],
+  "sources": [
+    "https://docs.stripe.com/api",
+    "https://docs.stripe.com/keys",
+    "https://docs.stripe.com/mcp"
+  ],
+  "input_website_hint": "https://stripe.com/docs/api",
+  "access_conditional_gate": false,
+  "pipeline_version": "v2"
+}

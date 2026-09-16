@@ -1,0 +1,23 @@
+{
+  "app": "Close",
+  "category": "CRM and Sales",
+  "description": "Close is a sales CRM built for inside-sales teams, with a REST API for leads, contacts, calls, and pipeline data.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://developer.close.com/api/overview/api-key-authentication"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API keys are self-generated from account Settings -> Developer -> API Keys, no support/approval step, works immediately.",
+  "access_evidence": {"urls": ["https://developer.close.com/api/overview/api-key-authentication"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Leads, contacts, opportunities, calls/SMS activity, and custom fields.",
+  "api_evidence": {"urls": ["https://developer.close.com/api"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://developer.close.com/mcp"], "source_type": "OFFICIAL", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "HIGH",
+  "review_flags": [],
+  "sources": ["https://developer.close.com/api/overview/api-key-authentication", "https://developer.close.com/mcp"],
+  "input_website_hint": "https://close.com"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "Gumroad",
+  "category": "Ecommerce",
+  "description": "Gumroad is a creator-commerce platform (digital products, memberships) with a REST API for sales, products, and subscribers.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://help.gumroad.com/article/280-create-application-api"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Any Gumroad account holder can create an OAuth application from account settings, free, no approval step found.",
+  "access_evidence": {"urls": ["https://help.gumroad.com/article/280-create-application-api"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "NARROW",
+  "api_notes": "Sales, products, subscribers, and licenses -- a fairly narrow, creator-commerce-scoped object model.",
+  "api_evidence": {"urls": ["https://help.gumroad.com/article/280-create-application-api"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://mcpservers.org/servers/rmarescu/gumroad-mcp"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://help.gumroad.com/article/280-create-application-api"],
+  "input_website_hint": "https://gumroad.com/api"
+}

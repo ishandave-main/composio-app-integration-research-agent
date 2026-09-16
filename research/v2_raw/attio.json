@@ -1,0 +1,23 @@
+{
+  "app": "Attio",
+  "category": "CRM and Sales",
+  "description": "Attio is a data-driven CRM with customizable objects and a REST API for records, lists, and workspace data.",
+  "auth_methods": ["API_KEY", "OAUTH2", "BASIC"],
+  "auth_evidence": {"urls": ["https://docs.attio.com/rest-api/guides/authentication"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "A single-workspace API key can be generated manually and used immediately; OAuth2 is available for multi-workspace apps. No sign-up gate found beyond having an Attio workspace.",
+  "access_evidence": {"urls": ["https://docs.attio.com/rest-api/guides/authentication"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Covers records, lists, objects/attributes, notes, and workspace members -- a real but narrower surface than the larger legacy CRMs.",
+  "api_evidence": {"urls": ["https://docs.attio.com/rest-api/guides/authentication"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://docs.attio.com/mcp/overview"], "source_type": "OFFICIAL", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "HIGH",
+  "review_flags": [],
+  "sources": ["https://docs.attio.com/rest-api/guides/authentication", "https://docs.attio.com/mcp/overview"],
+  "input_website_hint": "https://attio.com"
+}

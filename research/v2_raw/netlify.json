@@ -1,0 +1,23 @@
+{
+  "app": "Netlify",
+  "category": "Developer Infra and Data Platforms",
+  "description": "Netlify is a web-hosting/deployment platform with a REST API for sites, deploys, and forms.",
+  "auth_methods": ["TOKEN", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Personal access tokens are self-serve from account settings, free tier included.",
+  "access_evidence": {"urls": ["https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Sites, deploys, forms, DNS, and environment variables.",
+  "api_evidence": {"urls": ["https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/netlify/netlify-mcp", "https://docs.netlify.com/build/build-with-ai/netlify-mcp-server/"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api/", "https://github.com/netlify/netlify-mcp"],
+  "input_website_hint": "https://docs.netlify.com/api"
+}

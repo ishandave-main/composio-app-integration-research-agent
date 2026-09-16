@@ -1,0 +1,23 @@
+{
+  "app": "systeme.io",
+  "category": "Marketing Ads Email and Social",
+  "description": "systeme.io is an all-in-one funnel/course/email-marketing platform for solopreneurs, with a public REST API.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Public API key is created directly from account settings per the official help article; systeme.io has a free plan.",
+  "access_evidence": {"urls": ["https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "NARROW",
+  "api_notes": "A third-party review (thatmarketingbuddy.com) independently rated this API's agent-readiness 5/10, consistent with a smaller, less mature API surface than category leaders like Mailchimp/Klaviyo -- treated as a directional signal, not the classification basis.",
+  "api_evidence": {"urls": ["https://developer.systeme.io/reference/api"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://mcpservers.org/servers/snzeeee/mcp-server-systemeio"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["API_UNCLEAR", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io", "https://developer.systeme.io/reference/api"],
+  "input_website_hint": "https://systeme.io"
+}

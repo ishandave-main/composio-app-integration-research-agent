@@ -1,0 +1,23 @@
+{
+  "app": "Supabase",
+  "category": "Developer Infra and Data Platforms",
+  "description": "Supabase is an open-source Postgres-based backend-as-a-service with REST/GraphQL APIs (auto-generated) plus a Management API.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://supabase.com/docs/guides/getting-started/api-keys"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Project API keys are available immediately on project creation, free tier included; Management API uses OAuth2 for third-party integrations.",
+  "access_evidence": {"urls": ["https://supabase.com/docs/guides/getting-started/api-keys"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST", "GRAPHQL"],
+  "api_breadth": "BROAD",
+  "api_notes": "Auto-generated REST/GraphQL over the Postgres schema, plus Auth, Storage, and a Management API for provisioning projects.",
+  "api_evidence": {"urls": ["https://supabase.com/docs/reference/api/introduction"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://supabase.com/docs/guides/ai-tools/mcp", "https://supabase.com/blog/remote-mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://supabase.com/docs/guides/getting-started/api-keys", "https://supabase.com/docs/guides/ai-tools/mcp"],
+  "input_website_hint": "https://supabase.com/docs"
+}

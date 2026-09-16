@@ -1,0 +1,23 @@
+{
+  "app": "YouTube Transcript",
+  "category": "AI Research and Media-native",
+  "description": "TranscriptAPI.com provides a REST API for extracting YouTube video transcripts, with search, channel, and playlist support.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://transcriptapi.com/docs/getting-started/"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Developers sign up for an API key to make requests; some endpoints (e.g. RSS-based latest videos, channel handle resolution) are explicitly free with no key required, while core transcript extraction uses a self-serve API key.",
+  "access_evidence": {"urls": ["https://transcriptapi.com/docs/getting-started/"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "NARROW",
+  "api_notes": "Single-domain focus: transcript extraction, video/channel search, playlist browsing, and channel handle resolution.",
+  "api_evidence": {"urls": ["https://transcriptapi.com/docs/getting-started/"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://transcriptapi.com/docs/mcp/"], "source_type": "OFFICIAL", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "HIGH",
+  "review_flags": [],
+  "sources": ["https://transcriptapi.com/docs/getting-started/", "https://transcriptapi.com/docs/mcp/"],
+  "input_website_hint": "https://transcriptapi.com"
+}

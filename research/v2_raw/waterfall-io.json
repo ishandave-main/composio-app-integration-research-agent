@@ -1,0 +1,23 @@
+{
+  "app": "Waterfall.io",
+  "category": "Data SEO and Scraping",
+  "description": "Waterfall.io is a B2B contact/company data API for prospecting, enrichment, and email verification.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://docs.waterfall.io/v1/introduction"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "UNCLEAR",
+  "access_notes": "API key auth with sub-key management is documented, but the signup/pricing/free-tier terms were not confirmed from an official page in this pass.",
+  "access_evidence": {"urls": ["https://docs.waterfall.io/v1/introduction"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "13 documented endpoints for contact/company enrichment, prospecting, and email verification, supporting sync and async operations.",
+  "api_evidence": {"urls": ["https://docs.waterfall.io/v1/introduction"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Access/pricing model not confirmed from official sources.",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["ACCESS_UNCLEAR"],
+  "sources": ["https://docs.waterfall.io/v1/introduction"],
+  "input_website_hint": "https://waterfall.io"
+}

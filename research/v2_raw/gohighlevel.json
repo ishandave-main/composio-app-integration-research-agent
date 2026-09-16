@@ -1,0 +1,23 @@
+{
+  "app": "GoHighLevel",
+  "category": "Marketing Ads Email and Social",
+  "description": "GoHighLevel (HighLevel) is an all-in-one sales/marketing CRM platform (agency-focused) with a public REST API (v2, branded LeadConnector).",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://marketplace.gohighlevel.com/docs/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Public API docs and OAuth app registration are openly available via the Marketplace developer portal; a GoHighLevel/sub-account is needed to test against, but no separate approval gate found for API access itself.",
+  "access_evidence": {"urls": ["https://marketplace.gohighlevel.com/docs/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Contacts, opportunities, calendars, conversations, payments, and marketplace-app object model -- a wide surface reflecting the all-in-one product.",
+  "api_evidence": {"urls": ["https://github.com/GoHighLevel/highlevel-api-docs"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://marketplace.gohighlevel.com/docs/other/mcp"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://marketplace.gohighlevel.com/docs/", "https://marketplace.gohighlevel.com/docs/other/mcp"],
+  "input_website_hint": "https://highlevel.stoplight.io"
+}

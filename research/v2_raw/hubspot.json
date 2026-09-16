@@ -1,0 +1,23 @@
+{
+  "app": "HubSpot",
+  "category": "CRM and Sales",
+  "description": "HubSpot is a CRM and marketing/sales/service platform with a REST API for reading and writing contacts, deals, companies, tickets, and marketing objects.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Free developer/sandbox accounts (e.g. the free CMS developer sandbox) are self-serve and let you build and test immediately. Conditional gate: the scopes and rate limits an integration actually gets against a real customer's portal depend on that portal's paid HubSpot subscription tier -- building/testing is free, but some functionality requires the target account to be on a paid plan.",
+  "access_evidence": {"urls": ["https://developers.hubspot.com/docs/getting-started/account-types", "https://offers.hubspot.com/free-cms-developer-sandbox"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Covers CRM objects (contacts, companies, deals, tickets), marketing (email, forms, workflows), and CMS -- one of the widest object models in the CRM category.",
+  "api_evidence": {"urls": ["https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://developers.hubspot.com/ai-tools/mcp"], "source_type": "OFFICIAL", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": [],
+  "sources": ["https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth", "https://developers.hubspot.com/ai-tools/mcp", "https://developers.hubspot.com/docs/getting-started/account-types"],
+  "input_website_hint": "https://hubspot.com"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "SendGrid",
+  "category": "Marketing Ads Email and Social",
+  "description": "SendGrid (a Twilio product) is a transactional/marketing email platform with a REST API for sending mail and managing templates/stats.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://www.twilio.com/docs/sendgrid/ui/account-and-settings/api-keys"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API keys with scoped permissions are self-generated from account settings; free tier available.",
+  "access_evidence": {"urls": ["https://www.twilio.com/docs/sendgrid/ui/account-and-settings/api-keys"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Mail send, templates, stats/analytics, contacts.",
+  "api_evidence": {"urls": ["https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": ["https://www.usecarly.com/blog/sendgrid-mcp/"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://www.twilio.com/docs/sendgrid/ui/account-and-settings/api-keys", "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication"],
+  "input_website_hint": "https://sendgrid.com"
+}

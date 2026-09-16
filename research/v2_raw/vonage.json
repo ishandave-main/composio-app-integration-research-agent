@@ -1,0 +1,23 @@
+{
+  "app": "Vonage",
+  "category": "Communications and Messaging",
+  "description": "Vonage (part of Ericsson) is a communications API platform (SMS, voice, video, verify) with a broad REST API.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://developer.vonage.com/en/getting-started/concepts/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Self-serve signup with API key/secret shown immediately in the dashboard; free trial credit available.",
+  "access_evidence": {"urls": ["https://developer.vonage.com/en/getting-started/overview"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "SMS, voice, video, verify (2FA), and number management across a wide communications API suite.",
+  "api_evidence": {"urls": ["https://developer.vonage.com/en/api/account"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://developer.vonage.com/en/blog/introducing-the-vonage-mcp-tooling-server", "https://github.com/Vonage/vonage-mcp-server-documentation"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developer.vonage.com/en/getting-started/concepts/authentication", "https://developer.vonage.com/en/blog/introducing-the-vonage-mcp-tooling-server"],
+  "input_website_hint": "https://developer.vonage.com"
+}

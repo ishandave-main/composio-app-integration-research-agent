@@ -1,0 +1,23 @@
+{
+  "app": "Airtable",
+  "category": "Productivity and Project Management",
+  "description": "Airtable is a spreadsheet-database hybrid with a REST API for bases, tables, and records.",
+  "auth_methods": ["TOKEN", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://airtable.com/developers/web/guides/personal-access-tokens"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Personal access tokens are self-generated from account settings for any Airtable account, including the free plan.",
+  "access_evidence": {"urls": ["https://support.airtable.com/articles/9934989703-creating-personal-access-tokens"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Bases, tables, records, fields, and views -- scoped to the Airtable data model.",
+  "api_evidence": {"urls": ["https://airtable.com/developers/web/guides/personal-access-tokens"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://www.airtable.com/articles/mcp-server-interfaces-automations", "https://support.airtable.com/docs/using-the-airtable-mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://airtable.com/developers/web/guides/personal-access-tokens", "https://www.airtable.com/articles/mcp-server-interfaces-automations"],
+  "input_website_hint": "https://airtable.com/developers"
+}

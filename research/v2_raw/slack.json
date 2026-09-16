@@ -1,0 +1,23 @@
+{
+  "app": "Slack",
+  "category": "Communications and Messaging",
+  "description": "Slack is a team messaging platform with a REST API (Web API) for messages, channels, and users, plus a Developer Program for building apps.",
+  "auth_methods": ["OAUTH2", "TOKEN"],
+  "auth_evidence": {"urls": ["https://api.slack.com/authentication", "https://api.slack.com/authentication/token-types"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Creating a Slack app and generating tokens is self-serve via api.slack.com/developer-program, free for a workspace's own use; distributing an app publicly goes through app review.",
+  "access_evidence": {"urls": ["https://api.slack.com/developer-program"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Messages, channels, users, files, and a large events/interactivity surface.",
+  "api_evidence": {"urls": ["https://api.slack.com/types"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "UNCLEAR",
+  "mcp_evidence": {"urls": ["https://www.pulsemcp.com/servers/slack"], "source_type": "THIRD_PARTY", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["MCP_UNVERIFIED", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://api.slack.com/authentication", "https://api.slack.com/developer-program"],
+  "input_website_hint": "https://slack.com"
+}

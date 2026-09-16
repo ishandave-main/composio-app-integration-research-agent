@@ -1,0 +1,23 @@
+{
+  "app": "Mailchimp",
+  "category": "Marketing Ads Email and Social",
+  "description": "Mailchimp is an email marketing platform with a REST API for audiences/lists, campaigns, and automations.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://mailchimp.com/developer/marketing/guides/access-user-data-oauth-2/", "https://mailchimp.com/developer/marketing/docs/fundamentals/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API keys are self-generated from account settings for any Mailchimp account, including the free tier.",
+  "access_evidence": {"urls": ["https://mailchimp.com/developer/marketing/docs/fundamentals/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Audiences/lists, campaigns, automations, templates, and reporting.",
+  "api_evidence": {"urls": ["https://mailchimp.com/developer/marketing/guides/quick-start/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://mailchimp.com/developer/marketing/docs/fundamentals/", "https://mailchimp.com/developer/marketing/guides/access-user-data-oauth-2/"],
+  "input_website_hint": "https://mailchimp.com/developer"
+}

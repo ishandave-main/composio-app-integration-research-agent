@@ -1,0 +1,23 @@
+{
+  "app": "Datadog",
+  "category": "Developer Infra and Data Platforms",
+  "description": "Datadog is an observability/monitoring platform with a REST API for metrics, logs, monitors, and dashboards.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://docs.datadoghq.com/api/latest/authentication/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_TRIAL",
+  "access_notes": "A 14-day free trial gives full API access self-serve; sustained use requires a paid Datadog plan.",
+  "access_evidence": {"urls": ["https://docs.datadoghq.com/api/latest/key-management/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Metrics, logs, monitors, dashboards, incidents, and a very large product-spanning API surface.",
+  "api_evidence": {"urls": ["https://docs.datadoghq.com/api/latest/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/datadog-labs/mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "FEASIBLE_WITH_SETUP",
+  "main_blocker": "Full ongoing use requires a paid subscription beyond the trial period.",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.datadoghq.com/api/latest/authentication/", "https://github.com/datadog-labs/mcp-server"],
+  "input_website_hint": "https://docs.datadoghq.com/api"
+}

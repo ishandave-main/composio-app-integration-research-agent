@@ -1,0 +1,23 @@
+{
+  "app": "Coda",
+  "category": "Productivity and Project Management",
+  "description": "Coda is a docs-meets-spreadsheet-meets-app platform with a REST API for docs, tables, and rows, plus a Pack SDK for building integrations.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://coda.io/developers/apis/v1", "https://coda.io/packs/build/latest/guides/basics/authentication/oauth2/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API tokens are self-generated from account settings for any Coda account, including the free plan.",
+  "access_evidence": {"urls": ["https://coda.io/developers"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Docs, tables, rows/columns, and an Admin API for org-level management; the Pack SDK is a separate mechanism for building custom integrations inside Coda docs.",
+  "api_evidence": {"urls": ["https://coda.io/developers/apis/v1"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://coda.io/developers/apis/v1", "https://coda.io/developers"],
+  "input_website_hint": "https://coda.io/developers"
+}

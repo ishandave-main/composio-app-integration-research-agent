@@ -1,0 +1,23 @@
+{
+  "app": "Paygent Connect",
+  "category": "Finance and Fintech",
+  "description": "Input hint identifies this as 'Paygent (NMI-powered)', suggesting an NMI-based white-label payment gateway, but no single official source for a product matching this exact name could be confirmed.",
+  "auth_methods": ["UNCLEAR"],
+  "auth_evidence": {"urls": [], "source_type": "NONE", "verified": false},
+  "access_model": "UNCLEAR",
+  "access_notes": "Multiple unrelated companies share the 'Paygent' name (UK merchant services at paygent.co.uk, a legacy Japanese gateway documented only via a third-party IXOPAY adapter page, an AI-agent crypto payment product at paygent.net/paygent.tech, and paygent.ai). None of these precisely match 'Paygent Connect' with an NMI-powered white-label positioning, and no dedicated official documentation site could be found for that specific product.",
+  "access_evidence": {"urls": [], "source_type": "NONE", "verified": false},
+  "api_types": ["NONE_FOUND"],
+  "api_breadth": "UNCLEAR",
+  "api_notes": "No official developer documentation could be located for a product matching this exact name; NMI itself (the underlying gateway referenced in the hint) has its own separate developer portal at docs.nmi.com, but no confirmed link between NMI and a product called 'Paygent Connect' was found.",
+  "api_evidence": {"urls": [], "source_type": "NONE", "verified": false},
+  "mcp_status": "UNCLEAR",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": false},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Could not identify a single official source confirming which product this entry refers to; multiple same-named but unrelated companies exist.",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["NO_OFFICIAL_SOURCE", "CONFLICTING_SOURCES", "AUTH_UNCLEAR", "ACCESS_UNCLEAR", "API_UNCLEAR"],
+  "sources": [],
+  "input_website_hint": "paygent (NMI-powered)"
+}

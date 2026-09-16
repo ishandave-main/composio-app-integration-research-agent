@@ -1,0 +1,23 @@
+{
+  "app": "DealCloud",
+  "category": "CRM and Sales",
+  "description": "DealCloud (an Intapp product) is a deal-management and CRM platform for investment banks, private equity, and M&A advisory firms, with a REST API.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://api.docs.dealcloud.com/docs/token"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "CONTACT_SALES",
+  "access_notes": "API key generation requires an existing DealCloud account with API permissions specifically enabled by an org admin, and the docs point users needing help to their 'DealCloud Customer Success Manager' -- this is an existing-enterprise-client workflow. No public pricing, free trial, or self-serve signup page was found; DealCloud is sold as enterprise software (Intapp) to investment banking/PE/M&A firms.",
+  "access_evidence": {"urls": ["https://api.docs.dealcloud.com/docs/apikeys"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Deal/company/contact records and user-management APIs, with official Python/other SDKs.",
+  "api_evidence": {"urls": ["https://api.docs.dealcloud.com/docs"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "GATED",
+  "main_blocker": "Enterprise-only product with no public self-serve signup; API access requires being an existing paying client with admin-enabled permissions.",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": [],
+  "sources": ["https://api.docs.dealcloud.com/docs/apikeys", "https://api.docs.dealcloud.com/docs/token", "https://api.docs.dealcloud.com/docs"],
+  "input_website_hint": "https://api.docs.dealcloud.com"
+}

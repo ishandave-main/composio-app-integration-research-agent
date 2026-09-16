@@ -1,0 +1,23 @@
+{
+  "app": "QuickBooks",
+  "category": "Finance and Fintech",
+  "description": "QuickBooks Online is Intuit's accounting platform with a REST API for invoices, customers, payments, and accounting data.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://developer.intuit.com/app/developer/qbo/docs/get-started"], "source_type": "MIXED", "verified": false},
+  "access_model": "SELF_SERVE_TRIAL",
+  "access_notes": "Developers self-serve create an Intuit developer account and get Sandbox OAuth2 credentials immediately, but multiple independent third-party integration guides (Codat's 'QBO app assessment questionnaire', Zuplo, Satva Solutions) describe a required app assessment/production review before an app can access real customer data. The official Intuit developer pages render via JavaScript and could not be directly fetched to confirm this firsthand.",
+  "access_evidence": {"urls": ["https://docs.codat.io/integrations/accounting/quickbooksonline/qbo-app-assessment-questionnaire/", "https://developer.intuit.com/app/developer/qbo/docs/get-started"], "source_type": "MIXED", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Invoices, customers, vendors, payments, items, and general accounting/reporting entities.",
+  "api_evidence": {"urls": ["https://developer.intuit.com/app/developer/qbo/docs/get-started"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://github.com/intuit/quickbooks-online-mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "FEASIBLE_WITH_SETUP",
+  "main_blocker": "Production access to real customer data requires an app assessment/review process beyond initial sandbox signup.",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["CONDITIONAL_ACCESS", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://github.com/intuit/quickbooks-online-mcp-server", "https://docs.codat.io/integrations/accounting/quickbooksonline/qbo-app-assessment-questionnaire/"],
+  "input_website_hint": "https://developer.intuit.com"
+}

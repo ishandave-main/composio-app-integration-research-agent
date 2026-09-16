@@ -1,0 +1,59 @@
+{
+  "app": "Salesforce",
+  "category": "CRM and Sales",
+  "description": "Salesforce is a cloud CRM platform for managing sales, service, and marketing data, with a broad set of APIs for reading and writing org data.",
+  "auth_methods": [
+    "OAUTH2"
+  ],
+  "auth_evidence": {
+    "urls": [
+      "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart_dev_org.html",
+      "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "A free Developer Edition org (developer.salesforce.com/signup) gives immediate REST/SOAP/Bulk API access for building and testing, no approval needed. Caveat: for an existing production org, API access depends on the org's purchased edition (e.g. some lower editions require an add-on for API access) -- this is an org-level licensing detail, not a Composio integration blocker, since Developer Edition itself is unrestricted.",
+  "access_evidence": {
+    "urls": [
+      "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart_dev_org.html"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "api_types": [
+    "REST",
+    "OTHER"
+  ],
+  "api_breadth": "BROAD",
+  "api_notes": "REST API is the primary surface; OTHER covers SOAP API, Bulk API, Streaming/Pub-Sub API, Metadata API and Tooling API, which together reach essentially the full CRM object model (records, custom objects, Apex actions, Flows). Correction from an earlier draft that mis-tagged this as SDK_ONLY -- client libraries are convenience wrappers, not a separate access surface.",
+  "api_evidence": {
+    "urls": [
+      "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart_dev_org.html"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {
+    "urls": [
+      "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+      "https://developer.salesforce.com/blogs/2026/04/salesforce-hosted-mcp-servers-are-now-generally-available"
+    ],
+    "source_type": "OFFICIAL",
+    "verified": true
+  },
+  "buildability": "READY",
+  "main_blocker": "",
+  "confidence": "HIGH",
+  "review_flags": [],
+  "sources": [
+    "https://developer.salesforce.com/docs/platform/connect-rest-api/guide/quickstart_dev_org.html",
+    "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+    "https://developer.salesforce.com/blogs/2026/04/salesforce-hosted-mcp-servers-are-now-generally-available"
+  ],
+  "input_website_hint": "https://salesforce.com",
+  "access_conditional_gate": true,
+  "pipeline_version": "v2"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "Squarespace",
+  "category": "Ecommerce",
+  "description": "Squarespace is a website/ecommerce builder with Commerce APIs for orders, products, and inventory.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://developers.squarespace.com/commerce-apis/authentication-and-permissions", "https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API keys are generated from account settings; a note in third-party sources mentions 'API access developer mode not available' in some cases, suggesting Commerce API access may require a specific Squarespace Commerce plan tier -- not fully confirmed from official docs.",
+  "access_evidence": {"urls": ["https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Orders, products, inventory, and website content APIs.",
+  "api_evidence": {"urls": ["https://developers.squarespace.com/commerce-apis/websites"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://github.com/BusyBee3333/squarespace-mcp-2026-complete"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "FEASIBLE_WITH_SETUP",
+  "main_blocker": "Possible plan-tier dependency for Commerce API access, not fully confirmed.",
+  "access_conditional_gate": true,
+  "confidence": "LOW",
+  "review_flags": ["ACCESS_UNCLEAR", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developers.squarespace.com/commerce-apis/authentication-and-permissions", "https://support.squarespace.com/hc/en-us/articles/236297987-Squarespace-API-keys"],
+  "input_website_hint": "https://developers.squarespace.com"
+}

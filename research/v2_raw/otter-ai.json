@@ -1,0 +1,23 @@
+{
+  "app": "Otter AI",
+  "category": "AI Research and Media-native",
+  "description": "Otter.ai is a meeting transcription and notes platform with a REST API for channels, conversations, transcripts, and workspace data.",
+  "auth_methods": ["TOKEN"],
+  "auth_evidence": {"urls": ["https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "PAID",
+  "access_notes": "The Public API is available only to Enterprise workspaces ('If you do not see this feature for your workspace, contact your Otter account manager'); it is not available on lower-tier plans and is not self-serve outside Enterprise.",
+  "access_evidence": {"urls": ["https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Channels, conversations, transcripts, audio, action items, insights, outlines, workspace details, and webhooks.",
+  "api_evidence": {"urls": ["https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server", "https://otter.ai/blog/otter-mcp-your-meetings-now-power-every-tool-you-use"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "GATED",
+  "main_blocker": "Public API access is restricted to Enterprise workspace plans.",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API", "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server"],
+  "input_website_hint": "https://help.otter.ai"
+}

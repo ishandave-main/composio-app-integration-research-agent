@@ -1,0 +1,23 @@
+{
+  "app": "Gladly",
+  "category": "Support and Helpdesk",
+  "description": "Gladly is an enterprise customer-service platform built around a person-centric (not ticket-centric) model, with a REST API.",
+  "auth_methods": ["TOKEN"],
+  "auth_evidence": {"urls": ["https://help.gladly.com/developer-tutorials/docs/authentication"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "UNCLEAR",
+  "access_notes": "API tokens are documented, but no public pricing, free trial, or self-serve signup was found -- Gladly is positioned as an enterprise CX platform typically sold via sales-led onboarding, but this was not directly confirmed from an official access/pricing page in this pass.",
+  "access_evidence": {"urls": ["https://help.gladly.com/implementation/docs/get-your-api-tokens"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Documented App Platform with REST API and installable apps, centered on the person/conversation object model.",
+  "api_evidence": {"urls": ["https://developer.gladly.com/rest/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Access model (self-serve vs. sales-led onboarding) not confirmed from an official pricing/access page.",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["ACCESS_UNCLEAR", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://help.gladly.com/developer-tutorials/docs/authentication", "https://developer.gladly.com/rest/"],
+  "input_website_hint": "https://gladly.com"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "LiveAgent",
+  "category": "Support and Helpdesk",
+  "description": "LiveAgent is a help-desk and live-chat platform with a REST API for tickets, agents, and chat data.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://support.liveagent.com/741982-API-key"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "API key is generated from account settings, documented in the official support/help center rather than a dedicated developer portal.",
+  "access_evidence": {"urls": ["https://support.liveagent.com/741982-API-key"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "NARROW",
+  "api_notes": "Documentation is thinner than category peers -- support-article-based rather than a full developer reference site; breadth not fully confirmed.",
+  "api_evidence": {"urls": ["https://support.liveagent.com/802463-REST-API"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": [], "source_type": "NONE", "verified": true},
+  "buildability": "FEASIBLE_WITH_SETUP",
+  "main_blocker": "Documentation is support-article-based rather than a proper developer reference, making full API breadth harder to assess with confidence.",
+  "access_conditional_gate": false,
+  "confidence": "LOW",
+  "review_flags": ["API_UNCLEAR", "SOURCE_NOT_VERIFIED"],
+  "sources": ["https://support.liveagent.com/741982-API-key", "https://support.liveagent.com/802463-REST-API"],
+  "input_website_hint": "https://liveagent.com"
+}

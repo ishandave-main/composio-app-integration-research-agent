@@ -1,0 +1,23 @@
+{
+  "app": "Cloudflare",
+  "category": "Developer Infra and Data Platforms",
+  "description": "Cloudflare is a CDN/security/edge-compute platform with a REST API covering DNS, Workers, security settings, and more.",
+  "auth_methods": ["API_KEY", "TOKEN"],
+  "auth_evidence": {"urls": ["https://developers.cloudflare.com/fundamentals/api/get-started/create-token/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Scoped API tokens (recommended) or the legacy global API key are self-generated from the dashboard for any account, including the free plan.",
+  "access_evidence": {"urls": ["https://developers.cloudflare.com/fundamentals/api/get-started/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "DNS, Workers, R2 storage, Zero Trust/Access, and security/firewall settings across a large product suite.",
+  "api_evidence": {"urls": ["https://developers.cloudflare.com/api/overview"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://developers.cloudflare.com/fundamentals/api/get-started/create-token/", "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/"],
+  "input_website_hint": "https://developers.cloudflare.com/api"
+}

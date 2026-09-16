@@ -1,0 +1,23 @@
+{
+  "app": "Clay",
+  "category": "Data SEO and Scraping",
+  "description": "Clay is a GTM data-enrichment and workflow automation tool that lets users pull in 75+ data providers and build outbound workflows in a spreadsheet-like interface, with an HTTP API integration feature and an official MCP server.",
+  "auth_methods": ["API_KEY", "TOKEN"],
+  "auth_evidence": {"urls": ["https://university.clay.com/docs/http-api-integration-overview"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "UNCLEAR",
+  "access_notes": "Clay's HTTP API is a feature inside the product (used to connect external tools into a Clay table) rather than a conventional public developer API for building third-party toolkits against Clay itself; which pricing tiers include it was not confirmed from official docs.",
+  "access_evidence": {"urls": ["https://university.clay.com/docs/http-api-integration-overview"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST", "OTHER"],
+  "api_breadth": "NARROW",
+  "api_notes": "The HTTP API integration is primarily inbound/outbound data-connection tooling for Clay's own tables, not a full object-model API for managing Clay itself; MCP is the more agent-relevant surface (see MCP fields).",
+  "api_evidence": {"urls": ["https://university.clay.com/docs/http-api-integration-overview"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://www.clay.com/mcp", "https://university.clay.com/docs/mcp-settings"], "source_type": "OFFICIAL", "verified": true},
+  "buildability": "NEEDS_REVIEW",
+  "main_blocker": "Clay's core product surface is workflow/enrichment automation rather than a conventional REST object model; the official MCP is the more meaningful agent-integration path but its scope (running existing Clay workflows vs. general CRUD) differs from most other apps in this dataset and needs a human judgment call on fit.",
+  "access_conditional_gate": true,
+  "confidence": "MEDIUM",
+  "review_flags": ["ACCESS_UNCLEAR"],
+  "sources": ["https://university.clay.com/docs/http-api-integration-overview", "https://www.clay.com/mcp"],
+  "input_website_hint": "https://clay.com"
+}

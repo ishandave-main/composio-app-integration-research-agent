@@ -1,0 +1,23 @@
+{
+  "app": "Fathom",
+  "category": "AI Research and Media-native",
+  "description": "Fathom is an AI meeting notetaker/transcription tool with a public REST API for meeting recordings, transcripts, and summaries.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://help.fathom.video/en/articles/8368641", "https://developers.fathom.ai/"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Fathom's help center confirms a public API that anyone can browse and start building with immediately using a self-generated API key; OAuth is offered separately for developers building integrations meant for broader/marketplace distribution.",
+  "access_evidence": {"urls": ["https://help.fathom.video/en/articles/8368641"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Meeting recordings, transcripts, and summaries accessible by the API key owner or their team.",
+  "api_evidence": {"urls": ["https://developers.fathom.ai/"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://developers.fathom.ai/mcp-docs", "https://help.fathom.video/en/articles/11497793"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://help.fathom.video/en/articles/8368641", "https://developers.fathom.ai/"],
+  "input_website_hint": "https://fathom.video"
+}

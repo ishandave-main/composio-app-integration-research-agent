@@ -1,0 +1,23 @@
+{
+  "app": "DataForSEO",
+  "category": "Data SEO and Scraping",
+  "description": "DataForSEO is a pay-as-you-go SEO/SERP data API provider (keyword data, backlinks, SERP results, on-page analysis).",
+  "auth_methods": ["BASIC"],
+  "auth_evidence": {"urls": ["https://docs.dataforseo.com/v3/auth/"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "PAID",
+  "access_notes": "Account creation is free, but the API itself is strictly pay-as-you-go with no meaningful free usage tier -- you fund an account balance before making calls (third-party pricing summaries cite plans starting around $50).",
+  "access_evidence": {"urls": ["https://dataforseo.com/pricing"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "SERP, keyword research (Labs), backlinks, on-page, and domain analytics endpoints -- a wide SEO data surface.",
+  "api_evidence": {"urls": ["https://docs.dataforseo.com/v3/dataforseo_labs-overview/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://apify.com/santhej/dataforseo-mcp-server"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "FEASIBLE_WITH_SETUP",
+  "main_blocker": "No free usage tier -- every call requires a funded, paid account balance.",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://docs.dataforseo.com/v3/auth/", "https://dataforseo.com/pricing"],
+  "input_website_hint": "https://docs.dataforseo.com"
+}

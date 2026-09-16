@@ -1,0 +1,23 @@
+{
+  "app": "higgsfield",
+  "category": "AI Research and Media-native",
+  "description": "Higgsfield is a generative media (image/video) API and CLI, providing a unified integration point across multiple underlying generation models.",
+  "auth_methods": ["API_KEY"],
+  "auth_evidence": {"urls": ["https://docs.higgsfield.ai/docs"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Credentials (key ID/secret pair) are self-generated in Higgsfield Cloud (cloud.higgsfield.ai) with no approval step.",
+  "access_evidence": {"urls": ["https://docs.higgsfield.ai/docs"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST", "CLI"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Unified image and video generation across multiple models, with async request lifecycle, file uploads, and webhooks; also distributed as a CLI (github.com/higgsfield-ai/cli).",
+  "api_evidence": {"urls": ["https://docs.higgsfield.ai/docs", "https://higgsfield.ai/cli"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "COMMUNITY",
+  "mcp_evidence": {"urls": ["https://higgsfield.ai/creator-hub/help-center/mcp-cli/how-do-i-access-higgsfield-via-cli", "https://github.com/Hikhakk/higgsfield-mcp-unified"], "source_type": "MIXED", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED", "MCP_UNVERIFIED"],
+  "sources": ["https://docs.higgsfield.ai/docs", "https://higgsfield.ai/creator-hub/help-center/mcp-cli/how-do-i-access-higgsfield-via-cli"],
+  "input_website_hint": "https://higgsfield.ai/cli"
+}

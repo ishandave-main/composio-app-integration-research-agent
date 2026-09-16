@@ -1,0 +1,23 @@
+{
+  "app": "LinkedIn Ads",
+  "category": "Marketing Ads Email and Social",
+  "description": "LinkedIn Marketing/Advertising API lets approved partners manage LinkedIn ad campaigns and audiences programmatically.",
+  "auth_methods": ["OAUTH2"],
+  "auth_evidence": {"urls": ["https://learn.microsoft.com/en-us/linkedin/shared/authentication/getting-access"], "source_type": "OFFICIAL", "verified": true},
+  "access_model": "PARTNER_GATED",
+  "access_notes": "Official docs state explicitly: developers seeking Advertising API permissions 'must be approved' as a LinkedIn Marketing Partner. This is not self-serve at any tier -- you apply for the Advertising API product and go through partner approval before receiving any marketing-related access.",
+  "access_evidence": {"urls": ["https://learn.microsoft.com/en-us/linkedin/shared/authentication/getting-access"], "source_type": "OFFICIAL", "verified": true},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Campaign management and audience/reporting endpoints, accessible only once partner-approved.",
+  "api_evidence": {"urls": ["https://learn.microsoft.com/en-us/linkedin/shared/authentication/getting-access"], "source_type": "OFFICIAL", "verified": true},
+  "mcp_status": "NONE_FOUND",
+  "mcp_evidence": {"urls": ["https://theadspend.com/blog/linkedin-ads-mcp"], "source_type": "THIRD_PARTY", "verified": true},
+  "buildability": "GATED",
+  "main_blocker": "LinkedIn Marketing Partner approval is required before any Advertising API access is granted -- a significant, explicit partnership gate documented by LinkedIn itself.",
+  "access_conditional_gate": false,
+  "confidence": "HIGH",
+  "review_flags": [],
+  "sources": ["https://learn.microsoft.com/en-us/linkedin/shared/authentication/getting-access", "https://business.linkedin.com/marketing-solutions/marketing-partners"],
+  "input_website_hint": "https://learn.microsoft.com/linkedin/marketing"
+}

@@ -1,0 +1,23 @@
+{
+  "app": "MongoDB Atlas",
+  "category": "Developer Infra and Data Platforms",
+  "description": "MongoDB Atlas is a managed MongoDB cloud service with an Administration API for provisioning clusters, users, and network access.",
+  "auth_methods": ["API_KEY", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://www.mongodb.com/docs/atlas/api/api-authentication/"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "A free-tier (M0) cluster and self-serve Atlas Admin API key creation are both available directly from account settings.",
+  "access_evidence": {"urls": ["https://www.mongodb.com/docs/atlas/configure-api-access/"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "BROAD",
+  "api_notes": "Clusters, database users, network access lists, backups, and organization/project management -- the full Atlas admin surface.",
+  "api_evidence": {"urls": ["https://www.mongodb.com/docs/atlas/api/atlas-admin-api-ref/"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://www.mongodb.com/products/tools/mcp-server", "https://www.mongodb.com/company/blog/announcing-mongodb-mcp-server"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://www.mongodb.com/docs/atlas/api/api-authentication/", "https://www.mongodb.com/products/tools/mcp-server"],
+  "input_website_hint": "https://mongodb.com/docs/atlas/api"
+}

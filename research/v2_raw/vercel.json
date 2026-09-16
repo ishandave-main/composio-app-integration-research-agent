@@ -1,0 +1,23 @@
+{
+  "app": "Vercel",
+  "category": "Developer Infra and Data Platforms",
+  "description": "Vercel is a frontend cloud/deployment platform with a REST API for projects, deployments, and domains.",
+  "auth_methods": ["TOKEN", "OAUTH2"],
+  "auth_evidence": {"urls": ["https://vercel.com/docs/rest-api/authentication/create-an-auth-token"], "source_type": "OFFICIAL", "verified": false},
+  "access_model": "SELF_SERVE_FREE",
+  "access_notes": "Auth tokens are self-generated from account settings, free hobby tier included.",
+  "access_evidence": {"urls": ["https://vercel.com/docs/accounts/access-tokens"], "source_type": "OFFICIAL", "verified": false},
+  "api_types": ["REST"],
+  "api_breadth": "MODERATE",
+  "api_notes": "Projects, deployments, domains, environment variables, and teams.",
+  "api_evidence": {"urls": ["https://vercel.com/docs/rest-api"], "source_type": "OFFICIAL", "verified": false},
+  "mcp_status": "OFFICIAL",
+  "mcp_evidence": {"urls": ["https://vercel.com/docs/agent-resources/vercel-mcp", "https://vercel.com/blog/introducing-vercel-mcp-connect-vercel-to-your-ai-tools"], "source_type": "OFFICIAL", "verified": false},
+  "buildability": "READY",
+  "main_blocker": "",
+  "access_conditional_gate": false,
+  "confidence": "MEDIUM",
+  "review_flags": ["SOURCE_NOT_VERIFIED"],
+  "sources": ["https://vercel.com/docs/rest-api/authentication/create-an-auth-token", "https://vercel.com/docs/agent-resources/vercel-mcp"],
+  "input_website_hint": "https://vercel.com/docs/rest-api"
+}
